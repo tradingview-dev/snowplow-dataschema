@@ -14,9 +14,6 @@
     "list_id": {
       "type": "integer"
     },
-    "action_time": {
-      "type": "string"
-    },
     "symbol": {
       "type": "string"
     },
@@ -36,7 +33,6 @@
   "required": [
     "user_id",
     "list_id",
-    "action_time",
     "symbol",
     "symbol_type",
     "action",
