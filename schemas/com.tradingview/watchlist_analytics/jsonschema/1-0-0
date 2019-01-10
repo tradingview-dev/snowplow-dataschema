@@ -12,7 +12,7 @@
       "type": "integer"
     },
     "list_id": {
-      "type": "integer"
+      "type": "string"
     },
     "symbol": {
       "type": "string"
