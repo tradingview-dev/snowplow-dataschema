@@ -8,9 +8,6 @@
   },
   "type": "object",
   "properties": {
-    "user_id": {
-      "type": "integer"
-    },
     "list_id": {
       "type": "string"
     },
@@ -25,19 +22,14 @@
     },
     "platform": {
       "type": "string"
-    },
-    "list_type": {
-      "type": "string"
     }
   },
   "required": [
-    "user_id",
     "list_id",
     "symbol",
     "symbol_type",
     "action",
-    "platform",
-    "list_type"
+    "platform"
   ],
   "additionalProperties": false
 }
