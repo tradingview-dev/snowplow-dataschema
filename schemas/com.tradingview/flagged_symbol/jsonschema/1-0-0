@@ -1,0 +1,35 @@
+{
+  "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+  "self": {
+    "vendor": "com.tradingviewanalytics",
+    "name": "flagged_symbol",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "symbol": {
+      "type": "string"
+    },
+    "symbol_type": {
+      "type": "string"
+    },
+    "action": {
+      "type": "string"
+    },
+    "platform": {
+      "type": "string"
+    },
+    "list_color:: {
+      "type": "string"
+    }
+  },
+  "required": [
+    "symbol",
+    "symbol_type",
+    "action",
+    "platform",
+    "list_color"
+  ],
+  "additionalProperties": false
+}
