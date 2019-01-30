@@ -19,17 +19,13 @@
     },
     "chart_id": {
       "type": "string"
-    },
-    "referrer": {
-      "type": "string"
     }
   },
   "required": [
     "symbol_name",
     "symbol_type",
     "layout_type",
-    "chart_id",
-    "referrer"
+    "chart_id"
   ],
   "additionalProperties": false
 }
