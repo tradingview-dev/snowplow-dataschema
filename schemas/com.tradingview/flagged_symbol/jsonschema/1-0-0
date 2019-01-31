@@ -20,7 +20,7 @@
     "platform": {
       "type": "string"
     },
-    "list_color:: {
+    "list_color: {
       "type": "string"
     }
   },
