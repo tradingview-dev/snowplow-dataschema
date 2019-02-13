@@ -1,0 +1,31 @@
+{
+  "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+  "self": {
+    "vendor": "com.tradingviewanalytics",
+    "name": "alerts_stats",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "user_id": {
+      "type": "string"
+    },
+    "alert_time": {
+      "type": "string"
+    },
+    "alert_symbol": {
+      "type": "string"
+    },
+    "platform": {
+      "alert_symbol_type": "string"
+    }
+  },
+  "required": [
+    "user_id",
+    "alert_time",
+    "alert_symbol",
+    "alert_symbol_type"
+  ],
+  "additionalProperties": false
+}
