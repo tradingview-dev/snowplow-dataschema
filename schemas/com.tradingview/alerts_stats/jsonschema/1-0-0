@@ -17,8 +17,8 @@
     "alert_symbol": {
       "type": "string"
     },
-    "platform": {
-      "alert_symbol_type": "string"
+    "alert_symbol_type": {
+      "type": "string"
     }
   },
   "required": [
