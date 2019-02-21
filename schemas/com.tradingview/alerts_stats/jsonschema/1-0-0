@@ -19,13 +19,17 @@
     },
     "alert_symbol_type": {
       "type": "string"
+    },
+    "event_type": {
+      "type": "string"
     }
   },
   "required": [
     "user_id",
     "alert_time",
     "alert_symbol",
-    "alert_symbol_type"
+    "alert_symbol_type",
+    "event_type"
   ],
   "additionalProperties": false
 }
