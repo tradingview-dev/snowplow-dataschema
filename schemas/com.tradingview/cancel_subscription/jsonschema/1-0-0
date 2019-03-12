@@ -14,9 +14,6 @@
     "old_billing_cycle": {
       "type": "string"
     },
-    "log_id": {
-      "type": "NUMERIC"
-    },
     "reason": {
       "type": "string"
     },
@@ -27,7 +24,6 @@
   "required": [
     "product_id",
     "old_billing_cycle"",
-    "log_id",
     "reason",
     "feedback"
   ],
