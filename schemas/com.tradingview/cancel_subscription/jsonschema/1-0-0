@@ -19,13 +19,17 @@
     },
     "feedback": {
       "type": "string"
+    },
+    "by_admin": {
+      "type": "boolean"
     }
   },
   "required": [
     "product_id",
     "old_billing_cycle"",
     "reason",
-    "feedback"
+    "feedback",
+    "by_admin"
   ],
   "additionalProperties": false
 }
