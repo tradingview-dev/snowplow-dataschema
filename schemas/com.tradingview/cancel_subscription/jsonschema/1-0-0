@@ -26,7 +26,7 @@
   },
   "required": [
     "product_id",
-    "old_billing_cycle"",
+    "old_billing_cycle",
     "reason",
     "feedback",
     "by_admin"
