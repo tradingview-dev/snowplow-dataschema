@@ -9,7 +9,7 @@
   "type": "object",
   "properties": {
     "solution_id": {
-      "type": "numeric"
+      "type": "integer"
     },
     "lang": {
       "type": "string"
@@ -19,7 +19,9 @@
     }
   },
   "required": [
-    "signature"
+    "solution_id",
+    "lang",
+    "popular"
   ],
   "additionalProperties": false
 }
