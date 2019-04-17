@@ -9,7 +9,7 @@
   "type": "object",
   "properties": {
     "solution_id": {
-      "type": "integer"
+      "type": "number"
     },
     "lang": {
       "type": "string"
