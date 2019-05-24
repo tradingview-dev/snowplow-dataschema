@@ -10,10 +10,26 @@
   "properties": {
     "page": {
       "type": "string"
+    },
+    "signup_type": {
+      "type": "string"
+    },
+    "platform": {
+      "type": "string"
+    },
+    "feature_source": {
+      "type": "string"
+    },
+    "ref_session_id": {
+      "type" : "string"
     }
   },
   "required": [
-    "page"
+    "page",
+    "signup_type",
+    "platform",
+    "feature_source",
+    "ref_session_id"
   ],
   "additionalProperties": false
 }
