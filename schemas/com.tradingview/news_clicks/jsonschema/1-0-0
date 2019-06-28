@@ -1,0 +1,23 @@
+{
+  "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+  "self": {
+    "vendor": "com.tradingviewanalytics",
+    "name": "news_clicks",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "provider": {
+      "type": "string"
+    },
+    "news_id": {
+      "type" : "string"
+    }
+  },
+  "required": [
+    "provider",
+    "news_id"
+  ],
+  "additionalProperties": false
+}
