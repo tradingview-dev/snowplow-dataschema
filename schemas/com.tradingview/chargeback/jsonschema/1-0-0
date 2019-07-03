@@ -1,0 +1,31 @@
+{
+  "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+  "self": {
+    "vendor": "com.tradingviewanalytics",
+    "name": "chargeback",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "product_id": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "number"
+    },
+    "billing_cycle": {
+      "type": "string"
+    },
+    "payment_method": {
+      "type" : "string"
+    }
+  },
+  "required": [
+    "product_id",
+    "amount",
+    "billing_cycle",
+    "payment_method"
+  ],
+  "additionalProperties": false
+}
