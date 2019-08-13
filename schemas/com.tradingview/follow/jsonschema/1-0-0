@@ -1,0 +1,39 @@
+{
+  "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+  "self": {
+    "vendor": "com.tradingviewanalytics",
+    "name": "follow",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "follow_type": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "string"
+    },
+    "action": {
+      "type": "string"
+    },
+    "author_id": {
+      "type": "string"
+    },
+    "symbol": {
+      "type": "string"
+    },
+    "symbol_type": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "follow_type",
+    "user_id",
+    "action",
+    "author_id",
+    "symbol",
+    "symbol_type"
+  ],
+  "additionalProperties": false
+}
