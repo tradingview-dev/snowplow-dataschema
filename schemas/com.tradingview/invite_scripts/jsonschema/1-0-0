@@ -1,0 +1,31 @@
+{
+  "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+  "self": {
+    "vendor": "com.tradingviewanalytics",
+    "name": "invite_scripts",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "user_id": {
+      "type": "string"
+    },
+    "invite_time": {
+      "type": "string"
+    },
+    "script_id": {
+      "type": "string"
+    },
+    "target_user_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "user_id",
+    "invite_time",
+    "script_id",
+    "target_user_id"
+  ],
+  "additionalProperties": false
+}
