@@ -1,0 +1,35 @@
+{
+  "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+  "self": {
+    "vendor": "com.tradingviewanalytics",
+    "name": "logins",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "user_id": {
+      "type": "string"
+    },
+    "login_time": {
+      "type": "string"
+    },
+    "login_type": {
+      "type": "string"
+    },
+    "login_from": {
+      "type": "string"
+    },
+    "login_source": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "user_id",
+    "login_time",
+    "login_type",
+    "login_from",
+    "login_source"
+  ],
+  "additionalProperties": false
+}
