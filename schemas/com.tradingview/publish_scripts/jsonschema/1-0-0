@@ -11,29 +11,25 @@
     "user_id": {
       "type": "string"
     },
-    "publish_script": {
+    "script_id": {
       "type": "string"
     },
-    "publish_script_type": {
-      "type": "string"
+    "is_event_script_modification": {
+      "type": "boolean"
+    },
+    "is_script_video_idea": {
+      "type": "boolean"
     },
     "is_private": {
-      "type": "boolean"
-    },
-    "is_strategy": {
-      "type": "boolean"
-    },
-    "is_education": {
       "type": "boolean"
     }
   },
   "required": [
     "user_id",
-    "publish_script",
-    "publish_script_type",
-    "is_private",
-    "is_strategy",
-    "is_education"
+    "script_id",
+    "is_event_script_modification",
+    "is_script_video_idea",
+    "is_private"
   ],
   "additionalProperties": false
 }
