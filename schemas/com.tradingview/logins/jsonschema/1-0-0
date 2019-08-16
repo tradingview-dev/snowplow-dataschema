@@ -11,25 +11,21 @@
     "user_id": {
       "type": "string"
     },
-    "login_time": {
-      "type": "string"
-    },
     "login_type": {
       "type": "string"
     },
-    "login_from": {
+    "platform": {
       "type": "string"
     },
-    "login_source": {
+    "feature_source": {
       "type": "string"
     }
   },
   "required": [
     "user_id",
-    "login_time",
     "login_type",
-    "login_from",
-    "login_source"
+    "platform",
+    "feature_source"
   ],
   "additionalProperties": false
 }
