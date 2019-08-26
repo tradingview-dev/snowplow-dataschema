@@ -1,0 +1,23 @@
+{
+  "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+  "self": {
+    "vendor": "com.tradingviewanalytics",
+    "name": "refferal_spending",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "coins": {
+      "type": "number"
+    },
+    "spending_type": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "coins",
+    "spending_type"
+  ],
+  "additionalProperties": false
+}
