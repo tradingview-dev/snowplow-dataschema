@@ -8,9 +8,6 @@
   },
   "type": "object",
   "properties": {
-    "user_id": {
-      "type": "string"
-    },
     "login_type": {
       "type": "string"
     },
@@ -22,7 +19,6 @@
     }
   },
   "required": [
-    "user_id",
     "login_type",
     "platform",
     "feature_source"
