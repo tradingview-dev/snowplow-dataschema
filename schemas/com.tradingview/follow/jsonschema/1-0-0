@@ -11,9 +11,6 @@
     "follow_type": {
       "type": "string"
     },
-    "user_id": {
-      "type": "string"
-    },
     "action": {
       "type": "string"
     },
@@ -29,7 +26,6 @@
   },
   "required": [
     "follow_type",
-    "user_id",
     "action",
     "author_id",
     "symbol",

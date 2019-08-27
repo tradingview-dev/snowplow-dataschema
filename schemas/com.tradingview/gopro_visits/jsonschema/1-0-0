@@ -13,15 +13,11 @@
     },
     "feature": {
       "type": "string"
-    },
-    "user_id": {
-      "type": "string"
     }
   },
   "required": [
     "source",
-    "feature",
-    "user_id"
+    "feature"
   ],
   "additionalProperties": false
 }
