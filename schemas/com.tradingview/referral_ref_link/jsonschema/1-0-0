@@ -13,11 +13,15 @@
     },
     "action": {
       "type": "string"
+    },
+    "source": {
+      "type": "string"
     }
   },
   "required": [
     "ref",
-    "action"
+    "action",
+    "source"
   ],
   "additionalProperties": false
 }
