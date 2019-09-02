@@ -8,9 +8,6 @@
   },
   "type": "object",
   "properties": {
-    "user_id": {
-      "type": "string"
-    },
     "script_id": {
       "type": "string"
     },
@@ -25,7 +22,6 @@
     }
   },
   "required": [
-    "user_id",
     "script_id",
     "is_event_script_modification",
     "is_script_video_idea",

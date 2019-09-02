@@ -8,12 +8,6 @@
   },
   "type": "object",
   "properties": {
-    "user_id": {
-      "type": "string"
-    },
-    "invite_time": {
-      "type": "string"
-    },
     "script_id": {
       "type": "string"
     },
@@ -22,8 +16,6 @@
     }
   },
   "required": [
-    "user_id",
-    "invite_time",
     "script_id",
     "target_user_id"
   ],
