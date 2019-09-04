@@ -8,20 +8,48 @@
   },
   "type": "object",
   "properties": {
-    "user_id": {
-      "type": "string"
-    },
     "idea_id": {
-      "type": "string"
+      "type": "integer"
     },
     "is_chart_video_idea": {
       "type": "boolean"
+    },
+    "symbol": {
+      "type": "string"
+    },
+    "symbol_type": {
+      "type": "string"
+    },
+    "lang": {
+      "type": "string"
+    },
+    "is_education ": {
+      "type": "boolean"
+    },
+    "is_public": {
+      "type": "boolean"
+    },
+    "direction": {
+      "type": "integer"
+    },
+    "resolution ": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "string"
     }
   },
   "required": [
-    "user_id",
     "idea_id",
-    "is_chart_video_idea"
+    "is_chart_video_idea",
+    "symbol",
+    "symbol_type",
+    "language",
+    "is_education",
+    "is_public",
+    "direction",
+    "resolution",
+    "tags"
   ],
   "additionalProperties": false
 }
