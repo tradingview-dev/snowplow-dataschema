@@ -8,18 +8,14 @@
   },
   "type": "object",
   "properties": {
-    "user_id": {
-      "type": "string"
-    },
     "author_id": {
-      "type": {
+      "type": "integer"
     },
     "idea_id": {
-      "type": "string"
+      "type": "integer"
     }
   },
   "required": [
-    "user_id",
     "author_id",
     "idea_id"
   ],
