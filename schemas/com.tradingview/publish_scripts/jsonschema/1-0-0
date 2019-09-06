@@ -8,24 +8,20 @@
   },
   "type": "object",
   "properties": {
-    "script_id": {
+    "idea_id": {
+      "type": "integer"
+    },
+    "script_type": {
       "type": "string"
     },
-    "is_event_script_modification": {
-      "type": "boolean"
-    },
-    "is_script_video_idea": {
-      "type": "boolean"
-    },
-    "is_private": {
-      "type": "boolean"
+    "access_type": {
+      "type": "string"
     }
   },
   "required": [
-    "script_id",
-    "is_event_script_modification",
-    "is_script_video_idea",
-    "is_private"
+    "idea_id",
+    "script_type",
+    "access_type"
   ],
   "additionalProperties": false
 }
