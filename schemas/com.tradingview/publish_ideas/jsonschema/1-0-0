@@ -44,7 +44,7 @@
     "is_chart_video_idea",
     "symbol",
     "symbol_type",
-    "language",
+    "lang",
     "is_education",
     "is_public",
     "direction",
