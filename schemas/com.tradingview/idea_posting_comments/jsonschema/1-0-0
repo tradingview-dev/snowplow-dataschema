@@ -9,10 +9,10 @@
   "type": "object",
   "properties": {
     "author_id": {
-      "type": "string"
+      "type": "integer"
     },
     "idea_id": {
-      "type": "string"
+      "type": "integer"
     }
   },
   "required": [
