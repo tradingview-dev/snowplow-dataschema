@@ -23,7 +23,7 @@
     "lang": {
       "type": "string"
     },
-    "is_education ": {
+    "is_education": {
       "type": "boolean"
     },
     "is_public": {
@@ -32,7 +32,7 @@
     "direction": {
       "type": "integer"
     },
-    "resolution ": {
+    "resolution": {
       "type": "string"
     },
     "tags": {
