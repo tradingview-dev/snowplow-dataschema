@@ -9,7 +9,7 @@
   "type": "object",
   "properties": {
     "product_id": {
-      "type": "integer"
+      "type": "string"
     },
     "amount": {
       "type": "number"
