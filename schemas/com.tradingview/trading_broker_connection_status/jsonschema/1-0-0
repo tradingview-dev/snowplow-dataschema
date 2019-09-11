@@ -1,0 +1,23 @@
+{
+  "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+  "self": {
+    "vendor": "com.tradingviewanalytics",
+    "name": "trading_broker_connection_status",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "broker_id": {
+      "type": "string"
+    },
+    "event": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "broker_id",
+    "event"
+  ],
+  "additionalProperties": false
+}
