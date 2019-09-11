@@ -12,7 +12,7 @@
       "type": "string"
     },
     "node_id": {
-      "type": "number"
+      "type": "integer"
     },
     "title": {
       "type": "string"
