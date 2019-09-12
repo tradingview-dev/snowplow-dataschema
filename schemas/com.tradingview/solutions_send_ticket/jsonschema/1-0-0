@@ -23,8 +23,6 @@
   },
   "required": [
     "category_id",
-    "folder_id",
-    "solution_id",
     "lang"
   ],
   "additionalProperties": false
