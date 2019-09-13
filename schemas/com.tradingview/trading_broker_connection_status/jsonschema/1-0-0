@@ -13,11 +13,15 @@
     },
     "event": {
       "type": "string"
+    },
+    "account_type": {
+      "type": "string"
     }
   },
   "required": [
     "broker_id",
-    "event"
+    "event",
+    "account_type"
   ],
   "additionalProperties": false
 }
