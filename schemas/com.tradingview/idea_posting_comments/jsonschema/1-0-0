@@ -13,11 +13,15 @@
     },
     "idea_id": {
       "type": "integer"
+    },
+    "platform": {
+      "type": "string"
     }
   },
   "required": [
     "author_id",
-    "idea_id"
+    "idea_id",
+    "platform"
   ],
   "additionalProperties": false
 }
