@@ -31,6 +31,9 @@
     },
     "discount_category": {
       "type": "string"
+    },
+    "after_trial": {
+      "type": "boolean"
     }
   },
   "required": [
