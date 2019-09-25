@@ -44,7 +44,8 @@
     "merchant",
     "payment_method",
     "currency",
-    "discount_category"
+    "discount_category",
+    "after_trial"
   ],
   "additionalProperties": false
 }
