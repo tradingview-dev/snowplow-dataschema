@@ -10,10 +10,14 @@
   "properties": {
     "action": {
       "type" : "string"
+    },
+    "source": {
+      "type" : "string"
     }
   },
   "required": [
-    "action"
+    "action",
+    "source"
   ],
   "additionalProperties": false
 }
