@@ -16,6 +16,9 @@
     },
     "offer_product_id": {
       "type": "string"
+    },
+    "billing_cycle": {
+      "type": "string"
     }
   },
   "required": [
