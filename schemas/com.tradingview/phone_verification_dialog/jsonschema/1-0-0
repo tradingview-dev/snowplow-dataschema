@@ -1,0 +1,27 @@
+{
+  "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+  "self": {
+    "vendor": "com.tradingviewanalytics",
+    "name": "phone_verification_dialog",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "page": {
+      "type": "string"
+    },
+    "feature_source": {
+      "type": "string"
+    },
+    "action": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "page",
+    "feature_source",
+    "action"
+  ],
+  "additionalProperties": false
+}
