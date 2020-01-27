@@ -34,6 +34,9 @@
     },
     "after_trial": {
       "type": "boolean"
+    },
+    "transaction_id": {
+      "type" : "integer"
     }
   },
   "required": [

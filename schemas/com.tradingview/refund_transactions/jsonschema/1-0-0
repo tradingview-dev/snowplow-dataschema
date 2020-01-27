@@ -25,6 +25,9 @@
     },
     "creator": {
       "type" : "string"
+    },
+    "transaction_id": {
+      "type" : "integer"
     }
   },
   "required": [

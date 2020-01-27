@@ -19,6 +19,9 @@
     },
     "payment_method": {
       "type" : "string"
+    },
+    "transaction_id": {
+      "type" : "integer" 
     }
   },
   "required": [
