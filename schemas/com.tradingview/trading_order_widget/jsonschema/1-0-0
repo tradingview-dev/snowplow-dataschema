@@ -1,0 +1,175 @@
+{
+  "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+  "self": {
+    "vendor": "com.tradingviewanalytics",
+    "name": "trading_order_widget",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "broker_id": {
+      "type": "string"
+    },
+    "account_type": {
+      "type": "string"
+    },
+    "order_ticket_mode": {
+      "type": "string"
+    },
+    "side": {
+      "type": "string"
+    },
+    "order_type": {
+      "type": "string"
+    },
+    "operation": {
+      "type": "string"
+    },
+    "stop_loss": {
+      "type": "number"
+    },     
+    "take_profit": {
+      "type": "number"
+    },     
+    "trailing_stop": {
+      "type": "number"
+    },     
+    "guaranteed_stop": {
+      "type": "number"
+    },     
+    "modified_tp_price": { 
+      "type": "boolean"
+    },
+    "modified_tp_pips": {
+      "type": "boolean"
+    },
+    "modified_tp_money": {
+     "type": "boolean" 
+    },
+    "modified_tp_percent": {
+      "type": "boolean"
+    },
+    "focused_tp_field": {
+      "type": "string"
+    },
+    "modified_sl_price": {
+      "type": "boolean"
+    },
+    "modified_sl_pips": {
+      "type": "boolean"
+    },
+    "modified_sl_money": {
+      "type": "boolean"
+    },
+    "modified_sl_percent": {
+      "type": "boolean"
+    },
+    "focused_sl_field": {
+      "type": "string"
+    },
+    "show_relative_price_control": {
+      "type": "boolean"
+    },
+    "show_currency_risk_in_qty": {
+      "type": "boolean"
+    },
+    "show_percent_risk_in_qty": {
+      "type": "boolean"
+    },
+    "show_brackets_in_currency": {
+      "type": "boolean"
+    },
+    "show_brackets_in_percent": {
+      "type": "boolean"
+    },
+    "show_order_preview": {
+      "type": "boolean"
+    },
+    "modified_absolute_price": {
+      "type": "boolean"
+    },
+    "modified_relative_price": {
+      "type": "boolean"
+    },
+    "focused_stop_price_field": {
+      "type": "string"
+    },
+    "focused_limit_price_field": {
+      "type": "string"
+    },
+    "modified_qty_units": {
+      "type": "boolean"
+    },
+    "modified_qty_risk_in_currency": {
+      "type": "boolean"
+    },
+    "modified_qty_risk_in_percent": {
+      "type": "boolean"
+    },
+    "modified_qty_base_currency": {
+      "type": "boolean"
+    },
+    "modified_qty_quote_currency": {
+      "type": "boolean"
+    },
+    "focused_qty_field": {
+      "type": "string"
+    },
+    "is_default_duration": {
+      "type": "boolean"
+    },
+    "modified_duration": {
+      "type": "boolean"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "used_calculator": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "broker_id",
+    "account_type",
+    "order_ticket_mode",
+    "side",
+    "order_type",
+    "operation",
+    "stop_loss",
+    "take_profit",
+    "trailing_stop",
+    "guaranteed_stop",
+    "modified_tp_price",
+    "modified_tp_pips",
+    "modified_tp_money",
+    "modified_tp_percent",
+    "focused_tp_field",
+    "modified_sl_price",
+    "modified_sl_pips",
+    "modified_sl_money",
+    "modified_sl_percent",
+    "focused_sl_field",
+    "show_relative_price_control",
+    "show_currency_risk_in_qty",
+    "show_percent_risk_in_qty",
+    "show_brackets_in_currency",
+    "show_brackets_in_percent",
+    "show_order_preview",
+    "modified_absolute_price",
+    "modified_relative_price",
+    "focused_stop_price_field",
+    "focused_limit_price_field",
+    "modified_qty_units",
+    "modified_qty_risk_in_currency",
+    "modified_qty_risk_in_percent",
+    "modified_qty_base_currency",
+    "modified_qty_quote_currency",
+    "focused_qty_field",
+    "is_default_duration",
+    "modified_duration",
+    "duration",
+    "used_calculator"  
+  ],
+  "additionalProperties": false
+}
