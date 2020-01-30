@@ -1,0 +1,27 @@
+{
+  "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+  "self": {
+    "vendor": "com.tradingviewanalytics",
+    "name": "drawings_analytics",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "symbol_name": {
+      "type": "string"
+    },
+    "drawing_name": {
+      "type": "string"
+    },
+    "drawing_action": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "symbol_name",
+    "drawing_name",
+    "drawing_action"
+  ],
+  "additionalProperties": false
+}
