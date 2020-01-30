@@ -9,37 +9,37 @@
   "type": "object",
   "properties": {
     "broker_id": {
-      "type": "string"
+      "type": ["string","null"]
     },
     "account_type": {
-      "type": "string"
+      "type": ["string","null"]
     },
     "order_ticket_mode": {
-      "type": "string"
+      "type": ["string","null"]
     },
     "side": {
-      "type": "string"
+      "type": ["string","null"]
     },
     "order_type": {
-      "type": "string"
+      "type": ["string","null"]
     },
     "symbol_type": {
-      "type": "string"
+      "type": ["string","null"]
     },
     "operation": {
-      "type": "string"
+      "type": ["string","null"]
     },
     "stop_loss": {
-      "type": "number"
+      "type": ["number","null"]
     },     
     "take_profit": {
-      "type": "number"
+      "type": ["number","null"]
     },     
     "trailing_stop": {
-      "type": "number"
+      "type": ["number","null"]
     },     
     "guaranteed_stop": {
-      "type": "number"
+      "type": ["number","null"]
     },     
     "modified_tp_price": { 
       "type": "boolean"
@@ -54,7 +54,7 @@
       "type": "boolean"
     },
     "focused_tp_field": {
-      "type": "string"
+      "type": ["string","null"]
     },
     "modified_sl_price": {
       "type": "boolean"
@@ -69,7 +69,7 @@
       "type": "boolean"
     },
     "focused_sl_field": {
-      "type": "string"
+      "type": ["string","null"]
     },
     "show_relative_price_control": {
       "type": "boolean"
@@ -96,10 +96,10 @@
       "type": "boolean"
     },
     "focused_stop_price_field": {
-      "type": "string"
+      "type": ["string","null"]
     },
     "focused_limit_price_field": {
-      "type": "string"
+      "type": ["string","null"]
     },
     "modified_qty_units": {
       "type": "boolean"
@@ -117,16 +117,16 @@
       "type": "boolean"
     },
     "focused_qty_field": {
-      "type": "string"
+      "type": ["string","null"]
     },
     "is_default_duration": {
-      "type": "boolean"
+      "type": ["boolean","null"]
     },
     "modified_duration": {
       "type": "boolean"
     },
     "duration": {
-      "type": "string"
+      "type": ["string","null"]
     },
     "used_calculator": {
       "type": "boolean"
