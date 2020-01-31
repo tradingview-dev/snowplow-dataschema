@@ -22,6 +22,9 @@
     },
     "transaction_id": {
       "type" : "integer" 
+    },
+    "user_id": {
+      "type" : ["string", "null"]
     }
   },
   "required": [
