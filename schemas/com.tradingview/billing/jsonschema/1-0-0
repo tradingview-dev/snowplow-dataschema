@@ -39,7 +39,7 @@
       "type" : "integer"
     },
     "user_id": {
-      "type" : "string"
+      "type" : ["string", "null"]
     }
   },
   "required": [
