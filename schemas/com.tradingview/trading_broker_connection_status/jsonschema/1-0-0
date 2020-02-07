@@ -12,7 +12,7 @@
       "type": "string"
     },
     "event": {
-      "type": "string"
+      "type": ["string", "null"]
     },
     "account_type": {
       "type": "string"
