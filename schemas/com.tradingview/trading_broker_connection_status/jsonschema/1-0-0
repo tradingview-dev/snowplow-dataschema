@@ -20,7 +20,6 @@
   },
   "required": [
     "broker_id",
-    "event",
     "account_type"
   ],
   "additionalProperties": false
