@@ -40,6 +40,9 @@
     },
     "user_id": {
       "type" : ["string", "null"]
+    },
+    "had_pro": {
+      "type": ["boolean", "null"]
     }
   },
   "required": [
