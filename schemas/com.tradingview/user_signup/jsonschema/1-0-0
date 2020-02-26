@@ -25,6 +25,12 @@
     },
     "user_id": {
       "type" : ["string", "null"]
+    },
+    "first_referer_medium" : {
+      "type" : ["string", "null"]
+    },
+    "first_referer_url_host" : {
+      "type" : ["string", "null"]
     }
   },
   "required": [
