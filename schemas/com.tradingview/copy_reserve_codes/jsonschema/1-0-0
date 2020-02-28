@@ -1,0 +1,19 @@
+{
+  "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+  "self": {
+    "vendor": "com.tradingviewanalytics",
+    "name": "copy_reserve_codes",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "type_2fa": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "type_2fa"
+  ],
+  "additionalProperties": false
+}
