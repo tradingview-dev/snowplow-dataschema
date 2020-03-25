@@ -19,6 +19,16 @@
     },
     "user_id": {
       "type" : ["string", "null"]
+    },
+    "identity_field": {
+      "type": ["integer", "null"],
+      "maximum" : 9223372036854775807
+    },
+    "last_view_dialog": {
+      "type" : ["string", "null"]
+    },
+    "first_visit_date": {
+      "type" : ["string", "null"]
     }
   },
   "required": [

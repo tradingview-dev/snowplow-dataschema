@@ -31,6 +31,13 @@
     },
     "first_referer_url_host" : {
       "type" : ["string", "null"]
+    },
+    "identity_field": {
+      "type": ["integer", "null"],
+      "maximum" : 9223372036854775807
+    },
+    "first_visit_date": {
+      "type" : ["string", "null"]
     }
   },
   "required": [
