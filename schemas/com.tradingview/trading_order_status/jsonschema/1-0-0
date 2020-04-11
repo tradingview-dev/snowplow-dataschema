@@ -22,7 +22,10 @@
     },
     "amount": {
       "type": "number"
-    }
+    },
+    "user_id": {
+      "type" : ["string", "null"]
+    }	
   },
   "required": [
     "broker_id",
