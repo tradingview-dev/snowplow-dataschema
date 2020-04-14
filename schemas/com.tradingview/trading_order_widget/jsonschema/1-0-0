@@ -138,6 +138,7 @@
     "order_ticket_mode",
     "side",
     "order_type",
+	"symbol_type",
     "operation",
     "stop_loss",
     "take_profit",
