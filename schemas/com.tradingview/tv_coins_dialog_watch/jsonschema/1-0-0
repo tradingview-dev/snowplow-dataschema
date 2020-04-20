@@ -1,0 +1,23 @@
+{
+  "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+  "self": {
+    "vendor": "com.tradingviewanalytics",
+    "name": "tv_coins_dialog_watch",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "page": {
+      "type": "string"
+    },
+    "tab": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "page",
+    "tab"
+  ],
+  "additionalProperties": false
+}
