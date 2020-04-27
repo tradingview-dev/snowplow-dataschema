@@ -19,7 +19,10 @@
     },
     "is_strategy": {
       "type": "boolean"
-    }
+    },
+	"pro_plan": {
+	  "type": "string"
+	}
   },
   "required": [
     "study_name",
