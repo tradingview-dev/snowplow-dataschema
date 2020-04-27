@@ -29,7 +29,10 @@
     },
     "first_visit_date": {
       "type" : ["string", "null"]
-    }
+    },
+	"last_permission_dialogs": {
+	  "type" : ["string", "null"]
+	}
   },
   "required": [
     "product_id",
