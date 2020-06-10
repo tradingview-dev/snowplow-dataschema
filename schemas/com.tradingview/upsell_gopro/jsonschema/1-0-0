@@ -1,0 +1,27 @@
+{
+  "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+  "self": {
+    "vendor": "com.tradingviewanalytics",
+    "name": "upsell_gopro",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string"
+    },
+    "product_id": {
+      "type": "string"
+    },
+	"offer_kind": {
+	  "type": "string"
+	}
+  },
+  "required": [
+    "action",
+    "product_id",
+	"offer_kind"
+  ],
+  "additionalProperties": false
+}
