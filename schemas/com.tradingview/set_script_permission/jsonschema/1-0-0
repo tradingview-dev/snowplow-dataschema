@@ -20,9 +20,6 @@
     "recipient_user_id": {
       "type": "integer"
     },
-    "user_id": {
-      "type": "integer"
-    },
     "is_created": {
       "type": "boolean"
     }
@@ -32,7 +29,6 @@
     "script_id_part",
     "expire_on",
     "recipient_user_id",
-    "user_id",
     "is_created"
   ],
   "additionalProperties": false

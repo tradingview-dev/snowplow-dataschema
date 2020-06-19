@@ -16,16 +16,12 @@
     },
     "recipient_user_id": {
       "type": "integer"
-    },
-    "user_id": {
-      "type": "integer"
     }
   },
   "required": [
     "idea_id",
     "script_id_part",
-    "recipient_user_id",
-    "user_id"
+    "recipient_user_id"
   ],
   "additionalProperties": false
 }
