@@ -43,6 +43,9 @@
     },
     "user_id": {
       "type" : ["string", "null"]
+    },
+    "image_url": {
+      "type": "string"
     }
   },
   "required": [
