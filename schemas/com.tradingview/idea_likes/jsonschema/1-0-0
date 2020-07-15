@@ -13,6 +13,9 @@
     },
     "idea_id": {
       "type": "integer"
+    },
+    "user_id": {
+      "type": "integer"
     }
   },
   "required": [

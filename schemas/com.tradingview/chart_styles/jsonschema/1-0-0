@@ -10,7 +10,10 @@
   "properties": {
     "style_name": {
       "type": "string"
-    }
+    },
+    "user_id": {
+      "type": "string"
+    }    
   },
   "required": [
     "style_name"

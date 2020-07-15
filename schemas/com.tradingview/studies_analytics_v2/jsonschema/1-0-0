@@ -22,6 +22,9 @@
     },
 	"pro_plan": {
 	  "type": "string"
+	},
+	"user_id": {
+	  "type": "string"
 	}
   },
   "required": [
