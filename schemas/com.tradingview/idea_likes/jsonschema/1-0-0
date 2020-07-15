@@ -15,7 +15,7 @@
       "type": "integer"
     },
     "user_id": {
-      "type": "integer"
+      "type": "string"
     }
   },
   "required": [
