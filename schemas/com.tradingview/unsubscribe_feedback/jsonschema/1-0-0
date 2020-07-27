@@ -1,0 +1,31 @@
+{
+  "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+  "self": {
+    "vendor": "com.tradingviewanalytics",
+    "name": "unsubscribe_feedback",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "product_id": {
+      "type": "string"
+    },
+    "billing_cycle": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string"
+    },
+    "custom": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "product_id",
+    "billing_cycle",
+    "reason",
+    "custom"
+  ],
+  "additionalProperties": false
+}
