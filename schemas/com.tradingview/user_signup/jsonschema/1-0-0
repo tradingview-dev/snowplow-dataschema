@@ -38,6 +38,12 @@
     },
     "first_visit_date": {
       "type" : ["string", "null"]
+    },
+    "geo_country": {
+      "type" : ["string", "null"]
+    },
+    "geo_region": {
+      "type" : ["string", "null"]
     }
   },
   "required": [
