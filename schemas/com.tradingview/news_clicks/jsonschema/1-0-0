@@ -12,7 +12,7 @@
       "type": "string"
     },
     "news_id": {
-      "type" : ["string", "NULL"]
+      "type" : ["string", "null"]
     }
   },
   "required": [
