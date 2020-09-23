@@ -1,0 +1,27 @@
+{
+  "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+  "self": {
+    "vendor": "com.tradingviewanalytics",
+    "name": "idea_update_created",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "idea_id": {
+      "type": "integer"
+    },
+    "update_id": {
+      "type": "integer"
+    },
+    "update_type": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "idea_id",
+    "update_id",
+    "update_type"
+  ],
+  "additionalProperties": false
+}
