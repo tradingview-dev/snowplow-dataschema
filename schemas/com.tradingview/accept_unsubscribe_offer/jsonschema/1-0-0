@@ -19,6 +19,9 @@
     },
     "offer_product_id": {
       "type": "string"
+    },
+    "user_id": {
+      "type" : ["string", "null"]
     }
   },
   "required": [
