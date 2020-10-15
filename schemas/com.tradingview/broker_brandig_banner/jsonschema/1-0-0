@@ -2,22 +2,30 @@
   "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
   "self": {
     "vendor": "com.tradingviewanalytics",
-    "name": "news_clicks",
+    "name": "broker_brandig_banner",
     "format": "jsonschema",
     "version": "1-0-0"
   },
   "type": "object",
   "properties": {
-    "provider": {
+    "action": {
       "type": "string"
     },
-    "news_id": {
-      "type" : ["string", "null"]
+    "broker": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "market": {
+      "type": "string"
     }
   },
   "required": [
-    "provider",
-    "news_id"
+    "action",
+    "broker",
+    "source",
+    "market"
   ],
   "additionalProperties": false
 }

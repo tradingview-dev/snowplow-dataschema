@@ -2,22 +2,26 @@
   "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
   "self": {
     "vendor": "com.tradingviewanalytics",
-    "name": "news_clicks",
+    "name": "idea_update_created",
     "format": "jsonschema",
     "version": "1-0-0"
   },
   "type": "object",
   "properties": {
-    "provider": {
-      "type": "string"
+    "idea_id": {
+      "type": "integer"
     },
-    "news_id": {
-      "type" : ["string", "null"]
+    "update_id": {
+      "type": "integer"
+    },
+    "update_type": {
+      "type": "string"
     }
   },
   "required": [
-    "provider",
-    "news_id"
+    "idea_id",
+    "update_id",
+    "update_type"
   ],
   "additionalProperties": false
 }
