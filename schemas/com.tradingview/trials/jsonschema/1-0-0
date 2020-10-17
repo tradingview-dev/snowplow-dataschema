@@ -32,6 +32,9 @@
     },
 	"last_permission_dialogs": {
 	  "type" : ["string", "null"]
+	},
+	"merchant": {
+	  "type" : ["string", "null"]
 	}
   },
   "required": [
