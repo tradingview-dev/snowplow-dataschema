@@ -22,6 +22,7 @@
     },
     "days_left": {
       "type": ["integer", "null"]
+    }
   },
   "required": [
     "product_id",
