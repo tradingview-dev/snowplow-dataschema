@@ -12,13 +12,13 @@
       "type": "string"
     },
     "re_stream_youtube": {
-      "type": "string"
+      "type": "boolean"
     },
     "re_stream_twitch": {
-      "type": "string"
+      "type": "boolean"
     },
     "forever_save": {
-      "type": "string"
+      "type": "boolean"
     },
     "visibility": {
       "type": "string"
