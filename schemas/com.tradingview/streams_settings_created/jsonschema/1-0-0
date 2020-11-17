@@ -1,0 +1,39 @@
+{
+  "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+  "self": {
+    "vendor": "com.tradingviewanalytics",
+    "name": "streams_settings_created",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "locale": {
+      "type": "string"
+    },
+    "re_stream_youtube": {
+      "type": "string"
+    },
+    "re_stream_twitch": {
+      "type": "string"
+    },
+    "forever_save": {
+      "type": "string"
+    },
+    "visibility": {
+      "type": "string"
+    },
+    "streaming_setup": {
+      "type": "sting"
+    }
+  },
+  "required": [
+    "locale",
+    "re_stream_youtube",
+    "re_stream_twitch",
+    "forever_save",
+    "visibility",
+    "streaming_setup"    
+  ],
+  "additionalProperties": false
+}

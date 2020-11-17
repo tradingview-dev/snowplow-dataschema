@@ -1,0 +1,31 @@
+{
+  "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+  "self": {
+    "vendor": "com.tradingviewanalytics",
+    "name": "streams_viewing_duration",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "locale": {
+      "type": "string"
+    },
+    "stream_time": {
+      "type": "number"
+    },
+    "source": {
+      "type": "string"
+    },
+    "stream_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "locale",
+    "stream_time",
+    "source",
+    "stream_id"
+  ],
+  "additionalProperties": false
+}
