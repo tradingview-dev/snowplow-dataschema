@@ -2,32 +2,30 @@
   "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
   "self": {
     "vendor": "com.tradingviewanalytics",
-    "name": "change_pro_plan",
+    "name": "streams_viewing_duration",
     "format": "jsonschema",
     "version": "1-0-0"
   },
   "type": "object",
   "properties": {
-    "product_id": {
+    "locale": {
       "type": "string"
     },
-    "from_product_id": {
+    "stream_time": {
+      "type": "number"
+    },
+    "source": {
       "type": "string"
     },
-    "action": {
+    "stream_id": {
       "type": "string"
-    },
-    "user_id": {
-      "type": "string"
-    },
-    "days_left": {
-      "type": ["integer", "null"]
     }
   },
   "required": [
-    "product_id",
-    "from_product_id",
-    "action"
+    "locale",
+    "stream_time",
+    "source",
+    "stream_id"
   ],
   "additionalProperties": false
 }

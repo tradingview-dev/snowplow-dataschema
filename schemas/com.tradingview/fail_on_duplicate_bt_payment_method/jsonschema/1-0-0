@@ -2,7 +2,7 @@
   "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
   "self": {
     "vendor": "com.tradingviewanalytics",
-    "name": "change_pro_plan",
+    "name": "fail_on_duplicate_bt_payment_method",
     "format": "jsonschema",
     "version": "1-0-0"
   },
@@ -11,23 +11,23 @@
     "product_id": {
       "type": "string"
     },
-    "from_product_id": {
+    "billing_cycle": {
       "type": "string"
     },
-    "action": {
+    "payment_method": {
       "type": "string"
     },
     "user_id": {
-      "type": "string"
+      "type" : ["string", "null"]
     },
-    "days_left": {
-      "type": ["integer", "null"]
+    "geo_country": {
+      "type" : ["string", "null"]
     }
   },
   "required": [
     "product_id",
-    "from_product_id",
-    "action"
+    "billing_cycle",
+    "payment_method"
   ],
   "additionalProperties": false
 }

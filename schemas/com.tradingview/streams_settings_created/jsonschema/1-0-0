@@ -2,33 +2,38 @@
   "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
   "self": {
     "vendor": "com.tradingviewanalytics",
-    "name": "chat",
+    "name": "streams_settings_created",
     "format": "jsonschema",
     "version": "1-0-0"
   },
   "type": "object",
   "properties": {
-    "chatroom_id": {
-      "type": "string"
-    },
-    "is_chatroom": {
-      "type": "boolean"
-    },
-    "is_private": {
-      "type": "boolean"
-    },
     "locale": {
       "type": "string"
     },
-    "user_id": {
+    "re_stream_youtube": {
+      "type": "boolean"
+    },
+    "re_stream_twitch": {
+      "type": "boolean"
+    },
+    "forever_save": {
+      "type": "boolean"
+    },
+    "visibility": {
       "type": "string"
+    },
+    "streaming_setup": {
+      "type": "sting"
     }
   },
   "required": [
-    "chatroom_id",
-    "is_chatroom",
-    "is_private",
-    "locale"
+    "locale",
+    "re_stream_youtube",
+    "re_stream_twitch",
+    "forever_save",
+    "visibility",
+    "streaming_setup"    
   ],
   "additionalProperties": false
 }
