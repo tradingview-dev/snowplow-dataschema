@@ -13,11 +13,35 @@
     },
     "news_id": {
       "type" : ["string", "null"]
+    },
+    "user_id": {
+      "type" : ["integer", "null"]
+    },
+    "language": {
+      "type" : "string"
+    },
+    "country": {
+      "type" : "string" 
+    },
+    "category": {
+      "type" : "string" 
+    },
+    "page": {
+      "type" : "string" 
+    },
+    "symbol": {
+      "type" : "string" 
     }
   },
   "required": [
     "provider",
-    "news_id"
+    "news_id",
+    "user_id",
+    "language",
+    "country",
+    "category",
+    "page",
+    "symbol"
   ],
   "additionalProperties": false
 }
