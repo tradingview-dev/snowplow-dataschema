@@ -31,7 +31,10 @@
     },
     "user_id": {
       "type" : ["string", "null"]
-    }
+    },
+    "merchant": {
+      "type" : ["string", "null"]
+    }    
   },
   "required": [
     "product_id",
