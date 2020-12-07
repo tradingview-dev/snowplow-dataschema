@@ -22,6 +22,12 @@
     },
     "days_left": {
       "type": ["integer", "null"]
+    },
+    "from_billing_cycle": {
+      "type": ["string", "null"]
+    },
+    "to_billing_cycle": {
+      "type": ["string", "null"]
     }
   },
   "required": [
