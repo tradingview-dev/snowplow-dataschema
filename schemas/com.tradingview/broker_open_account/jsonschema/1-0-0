@@ -1,0 +1,31 @@
+{
+  "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+  "self": {
+    "vendor": "com.tradingviewanalytics",
+    "name": "broker_open_account",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string"
+    },
+    "broker": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "details": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "action",
+    "broker",
+    "source",
+    "details"
+  ],
+  "additionalProperties": false
+}
