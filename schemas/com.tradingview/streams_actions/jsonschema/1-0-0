@@ -8,8 +8,8 @@
   },
   "type": "object",
   "properties": {
-    "product_id": {
-      "locale": "string"
+    "locale": {
+      "type": "string"
     },
     "action": {
       "type": "string"
