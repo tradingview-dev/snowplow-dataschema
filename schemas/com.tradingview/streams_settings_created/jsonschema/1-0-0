@@ -24,7 +24,7 @@
       "type": "string"
     },
     "streaming_setup": {
-      "type": "sting"
+      "type": "string"
     }
   },
   "required": [
