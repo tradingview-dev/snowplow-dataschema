@@ -1,0 +1,27 @@
+{
+  "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+  "self": {
+    "vendor": "com.tradingviewanalytics",
+    "name": "payment_order_dialog_initial",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "step": {
+      "type": "string"
+    },
+    "products": {
+      "type": "string"
+    },
+    "billing_сycle": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "step",
+    "products",
+    "billing_сycle"
+  ],
+  "additionalProperties": false
+}
