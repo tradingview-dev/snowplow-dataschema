@@ -14,14 +14,14 @@
     "products": {
       "type": "string"
     },
-    "billing_сycle": {
+    "billing_cycle": {
       "type": "string"
     }
   },
   "required": [
     "step",
     "products",
-    "billing_сycle"
+    "billing_cycle"
   ],
   "additionalProperties": false
 }
