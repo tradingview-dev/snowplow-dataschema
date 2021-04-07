@@ -1,0 +1,27 @@
+{
+  "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+  "self": {
+    "vendor": "com.tradingviewanalytics",
+    "name": "search_toolbar",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "search_type": {
+      "type": "string"
+    },
+    "search_input": {
+      "type": "string"
+    },
+    "search_result": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "search_type",
+    "search_input",
+    "search_result"
+  ],
+  "additionalProperties": false
+}
