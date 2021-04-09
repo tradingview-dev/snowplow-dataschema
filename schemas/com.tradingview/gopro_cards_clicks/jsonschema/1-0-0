@@ -8,12 +8,16 @@
   },
   "type": "object",
   "properties": {
-    "click_filed": {
+    "component": {
       "type": "string"
-    }    
+    },
+    "value": {
+      "type": "string"
+    }
   },
   "required": [
-    "click_filed"
+    "component",
+    "value"
   ],
   "additionalProperties": false
 }
