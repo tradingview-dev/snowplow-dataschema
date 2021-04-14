@@ -1,0 +1,35 @@
+{
+  "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+  "self": {
+    "vendor": "com.tradingviewanalytics",
+    "name": "app_banner",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "source": {
+      "type": "string"
+    },
+    "medium": {
+      "type": "string"
+    },
+    "campaign": {
+      "type": "string"
+    },
+    "action": {
+      "type": "string"
+    },
+    "destination": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "source",
+    "medium",
+    "campaign",
+    "action",
+    "destination"
+  ],
+  "additionalProperties": false
+}
