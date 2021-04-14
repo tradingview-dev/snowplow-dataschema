@@ -12,7 +12,7 @@
       "type": "string"
   },
   "required": [
-    "image_url "
+    "image_url"
   ],
   "additionalProperties": false
 }
