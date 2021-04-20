@@ -10,10 +10,14 @@
   "properties": {
     "image_url": {
       "type": "string"
+    },
+    "idea_id": {
+      "type": "string"
     }
   },
   "required": [
-    "image_url"
+    "image_url",
+    "idea_id"
   ],
   "additionalProperties": false
 }
