@@ -12,7 +12,8 @@
       "type": "string"
     },
     "idea_id": {
-      "type": "string"
+      "type": "integer",
+      "maximum" : 9223372036854775807
     }
   },
   "required": [
