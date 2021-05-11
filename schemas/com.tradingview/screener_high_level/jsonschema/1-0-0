@@ -2,13 +2,25 @@
   "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
   "self": {
     "vendor": "com.tradingviewanalytics",
-    "name": "screener-high-level",
+    "name": "screener_high_level",
     "format": "jsonschema",
     "version": "1-0-0"
   },
   "type": "object",
   "properties": {
-    "click_button_name": {
+    "event": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "value": {
       "type": "string"
     },
     "screener_type": {
@@ -19,7 +31,11 @@
     }
   },
   "required": [
-    "click_button_name",
+    "event",
+    "source",
+    "location",
+    "state",
+    "value",
     "screener_type",
     "screener_source"
   ],
