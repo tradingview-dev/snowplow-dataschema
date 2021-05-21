@@ -22,6 +22,12 @@
     },
     "user_id": {
       "type": "string"
+    },
+    "domain_userid": {
+      "type": "string"
+    },
+    "geo_country": {
+      "type": "string"
     }
   },
   "required": [
