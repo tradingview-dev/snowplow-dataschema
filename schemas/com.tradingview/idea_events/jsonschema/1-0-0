@@ -30,7 +30,7 @@
       "type": "integer"
     },
     "idea_comments": {
-      "type": "string"
+      "type": "integer"
     },
     "picked_time": {
       "type": "string"
