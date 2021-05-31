@@ -30,12 +30,15 @@
     "first_visit_date": {
       "type" : ["string", "null"]
     },
-	"last_permission_dialogs": {
-	  "type" : ["string", "null"]
-	},
-	"merchant": {
-	  "type" : ["string", "null"]
-	}
+    "last_permission_dialogs": {
+      "type" : ["string", "null"]
+    },
+    "merchant": {
+      "type" : ["string", "null"]
+    },
+    "trial_length": {
+      "type" : ["string", "null"]
+    }
   },
   "required": [
     "product_id",
