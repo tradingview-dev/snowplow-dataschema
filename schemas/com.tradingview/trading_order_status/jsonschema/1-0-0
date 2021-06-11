@@ -25,7 +25,10 @@
     },
     "user_id": {
       "type" : ["string", "null"]
-    }	
+    },
+    "symbol_name": {
+      "type" : "string"
+    }
   },
   "required": [
     "broker_id",
