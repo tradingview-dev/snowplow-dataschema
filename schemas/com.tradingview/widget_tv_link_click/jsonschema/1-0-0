@@ -14,17 +14,17 @@
     "domain": {
       "type": "string"
     },
-    "symbol": {
-      "type": ["string", "null"]
+    "link": {
+      "type": "string"
     },
     "target_type": {
-      "type": "string"
+      "type": ["string", "null"]
     }
   },
   "required": [
     "widget_type",
     "domain",
-    "symbol",
+    "link",
     "target_type"
   ],
   "additionalProperties": false
