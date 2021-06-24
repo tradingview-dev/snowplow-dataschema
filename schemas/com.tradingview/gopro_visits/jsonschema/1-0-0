@@ -16,6 +16,9 @@
     },
     "user_id": {
       "type": "string"
+    },
+    "outcome": {
+      "type": "string"
     }
   },
   "required": [
