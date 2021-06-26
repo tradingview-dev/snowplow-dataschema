@@ -44,6 +44,9 @@
     },
     "geo_region": {
       "type" : ["string", "null"]
+    },
+    "domain_userid": {
+      "type" : "string"
     }
   },
   "required": [
