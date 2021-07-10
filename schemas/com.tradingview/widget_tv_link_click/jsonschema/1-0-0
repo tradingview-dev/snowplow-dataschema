@@ -19,6 +19,12 @@
     },
     "target_type": {
       "type": ["string", "null"]
+    },
+    "domain_userid": {
+      "type": "string"
+    },
+    "geo_country": {
+      "type": "string"
     }
   },
   "required": [
