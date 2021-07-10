@@ -16,6 +16,12 @@
     },
     "user_id": {
       "type": "string"
+    },
+    "useragent": {
+      "type": "string"
+    },
+    "pro_plan": {
+      "type": "string"
     }
   },
   "required": [
