@@ -19,6 +19,12 @@
     },
     "outcome": {
       "type": "string"
+    },
+    "domain_userid": {
+      "type": "string"
+    },
+    "domain_sessionid": {
+      "type": "string"
     }
   },
   "required": [

@@ -13,6 +13,15 @@
     },
     "value": {
       "type": "string"
+    },
+    "user_id": {
+      "type": "string"
+    },
+    "domain_userid": {
+      "type": "string"
+    },
+    "domain_sessionid": {
+      "type": "string"
     }
   },
   "required": [
