@@ -1,0 +1,35 @@
+{
+  "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+  "self": {
+    "vendor": "com.tradingviewanalytics",
+    "name": "trading_balances",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "broker_id": {
+      "type": "string"
+    },
+    "userHash": {
+      "type": "string"
+    },
+    "account_id_hash": {
+      "type": "string"
+    },
+    "equity": {
+      "type": "number"
+    },
+    "currency": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "broker_id",
+    "user_hash",
+    "account_id_hash",
+    "equity",
+    "currency"
+  ],
+  "additionalProperties": false
+}
