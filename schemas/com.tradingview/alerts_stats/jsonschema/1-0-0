@@ -25,6 +25,18 @@
     },
     "alert_id": {
       "type": "number"
+    },
+    "total_alerts": {
+      "type": "integer"
+    },
+    "active_alerts": {
+      "type": "integer"
+    },
+    "active_alerts_limit": {
+      "type": "integer"
+    },
+    "pro_plan": {
+      "type": "string"
     }
   },
   "required": [
