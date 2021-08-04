@@ -28,7 +28,7 @@
     },
     "symbol_name": {
       "type" : "string"
-    }    },
+    },
     "order_id": {
       "type" : "string"
     }
