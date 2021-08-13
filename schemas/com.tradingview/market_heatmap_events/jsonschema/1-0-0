@@ -37,6 +37,9 @@
     },
     "multiplier": {
       "type": "number"
+    },
+    "hasfilters": {
+      "type": "boolean"
     }
   },
   "required": [
@@ -49,7 +52,8 @@
     "is_fullscreen",
     "group_by",
     "active_group",
-    "multiplier"
+    "multiplier",
+    "hasfilters"
   ],
   "additionalProperties": false
 }
