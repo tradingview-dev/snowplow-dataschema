@@ -38,7 +38,7 @@
     "multiplier": {
       "type": "number"
     },
-    "hasfilters": {
+    "has_filters": {
       "type": "boolean"
     }
   },
@@ -53,7 +53,7 @@
     "group_by",
     "active_group",
     "multiplier",
-    "hasfilters"
+    "has_filters"
   ],
   "additionalProperties": false
 }
