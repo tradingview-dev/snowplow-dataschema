@@ -1,0 +1,55 @@
+{
+  "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+  "self": {
+    "vendor": "com.tradingviewanalytics",
+    "name": "market_heatmap_events",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "event_name": {
+      "type": "string"
+    },
+    "market_type": {
+      "type": "string"
+    },
+    "dataset": {
+      "type": "string"
+    },
+    "color_parameter": {
+      "type": "string"
+    },
+    "size_parameter": {
+      "type": "string"
+    },
+    "is_monosize": {
+      "type": "boolean"
+    },
+    "is_fullscreen": {
+      "type": "boolean"
+    },
+    "group_by": {
+      "type": "string"
+    },
+    "active_group": {
+      "type": ["string", "null"]
+    },
+    "multiplier": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "event_name",
+    "market_type",
+    "dataset",
+    "color_parameter",
+    "size_parameter",
+    "is_monosize",
+    "is_fullscreen",
+    "group_by",
+    "active_group",
+    "multiplier"
+  ],
+  "additionalProperties": false
+}
