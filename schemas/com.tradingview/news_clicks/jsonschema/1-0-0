@@ -31,6 +31,9 @@
     },
     "symbol": {
       "type" : ["string", "null"]
+    },
+    "link": { 
+      "type" : "string"
     }
   },
   "required": [
