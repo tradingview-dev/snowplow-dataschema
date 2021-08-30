@@ -33,7 +33,7 @@
       "type" : ["string", "null"]
     },
     "link": { 
-      "type" : "string"
+      "type" : "string" 
     }
   },
   "required": [
@@ -44,7 +44,8 @@
     "country",
     "category",
     "page",
-    "symbol"
+    "symbol",
+    "link"
   ],
   "additionalProperties": false
 }
