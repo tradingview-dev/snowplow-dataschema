@@ -9,7 +9,7 @@
   "type": "object",
   "properties": {
     "provider": {
-      "type": "string"
+      "type": ["string", "null"]
     },
     "news_id": {
       "type" : ["string", "null"]
@@ -18,13 +18,13 @@
       "type" : ["integer", "null"]
     },
     "language": {
-      "type" : "string"
+      "type" : ["string", "null"]
     },
     "country": {
-      "type" : "string" 
+      "type" : ["string", "null"]
     },
     "category": {
-      "type" : "string" 
+      "type" : ["string", "null"]
     },
     "page": {
       "type" : "string" 
@@ -33,7 +33,7 @@
       "type" : ["string", "null"]
     },
     "link": { 
-      "type" : "string" 
+      "type" : ["string", "null"]
     }
   },
   "required": [
