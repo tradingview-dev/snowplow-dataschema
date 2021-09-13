@@ -13,6 +13,9 @@
     },
     "page": {
       "type": "string"
+    },
+    "source": {
+      "type": ["string", "null"]
     }
   },
   "required": [
