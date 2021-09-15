@@ -1,0 +1,45 @@
+{
+  "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+  "self": {
+    "vendor": "com.tradingviewanalytics",
+    "name": "toast_dialog",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "toast_type": {
+      "type": "string"
+    },
+    "action": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "placement": {
+      "type": "string"
+    },
+    "user_plan": {
+      "type": "string"
+    },
+    "symbol_type": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "string"
+    },
+    "domain_userid": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "toast_type",
+    "action",
+    "title",
+    "placement",
+    "user_plan",
+    "symbol_type"
+  ],
+  "additionalProperties": false
+}
