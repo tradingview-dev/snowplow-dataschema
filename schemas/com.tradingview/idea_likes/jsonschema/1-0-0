@@ -16,6 +16,9 @@
     },
     "user_id": {
       "type": "string"
+    },
+    "platform": {
+      "type": ["string", "null"]
     }
   },
   "required": [
