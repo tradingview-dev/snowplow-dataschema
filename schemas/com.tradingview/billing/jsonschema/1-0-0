@@ -43,10 +43,6 @@
     },
     "had_pro": {
       "type": ["boolean", "null"]
-    },
-    "identity_field": {
-      "type": ["integer", "null"],
-      "maximum" : 9223372036854775807
     }
   },
   "required": [
