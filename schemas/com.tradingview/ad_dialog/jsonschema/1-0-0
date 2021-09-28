@@ -2,7 +2,7 @@
   "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#"
   ,"self": {
     "vendor": "com.tradingviewanalytics"
-    ,"name": "accept_unsubscribe_offer"
+    ,"name": "ad_dialog"
     ,"format": "jsonschema"
     ,"version": "1-0-0"
   }
