@@ -1,0 +1,76 @@
+{
+  "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#"
+  ,"self": {
+    "vendor": "com.tradingviewanalytics"
+    ,"name": "accept_unsubscribe_offer"
+    ,"format": "jsonschema"
+    ,"version": "1-0-0"
+  }
+  ,"type": "object"
+  ,"properties": {
+    "ad_unit": {
+      "type": ["string", "null"]
+    }
+    ,"placement": {
+      "type": ["string", "null"]
+    }
+    ,"action": {
+      "type": ["string", "null"]
+    }
+    ,"filled": {
+      "type": ["boolean", "null"]
+    }
+    ,"user_plan": {
+      "type" : ["string", "null"]
+    }
+    ,"symbol_type": {
+      "type": ["boolean", "null"]
+    }
+    ,"user_id": {
+      "type": ["string", "null"]
+    }
+    ,"domain_userid": {
+      "type": ["string", "null"]
+    }
+    ,"domain_sessionid": {
+      "type": ["string", "null"]
+    }
+    ,"app_id": {
+      "type": ["string", "null"]
+    }
+    ,"platform": {
+      "type": ["string", "null"]
+    }
+    ,"dvce_type": {
+      "type": ["string", "null"]
+    }
+    ,"dvce_ismobile": {
+      "type": ["boolean", "null"]
+    }
+    ,"os_name": {
+      "type": ["string", "null"]
+    }
+    ,"os_family": {
+      "type": ["string", "null"]
+    }
+    ,"geo_country": {
+      "type": ["string", "null"]
+    }
+    ,"page_urlpath": {
+      "type": ["string", "null"]
+    }
+    ,"page_urlhost": {
+      "type": ["string", "null"]
+    }
+
+  }
+  ,"required": [
+    "ad_unit"
+    ,"placement"
+    ,"action"
+    ,"filled"
+    ,"user_plan"
+    ,"symbol_type"
+  ]
+  ,"additionalProperties": false
+}
