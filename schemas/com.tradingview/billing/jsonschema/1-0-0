@@ -43,6 +43,9 @@
     },
     "had_pro": {
       "type": ["boolean", "null"]
+    },
+    "country": {
+      "type": ["string", "null"]
     }
   },
   "required": [
