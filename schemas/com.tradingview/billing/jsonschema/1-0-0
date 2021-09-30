@@ -44,7 +44,10 @@
     "had_pro": {
       "type": ["boolean", "null"]
     },
-    "country": {
+    "geo_country": {
+      "type": ["string", "null"]
+    },
+    "geo_region": {
       "type": ["string", "null"]
     }
   },
