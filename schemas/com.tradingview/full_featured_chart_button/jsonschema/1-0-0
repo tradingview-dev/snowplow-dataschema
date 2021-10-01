@@ -16,6 +16,18 @@
     },
     "source": {
       "type": ["string", "null"]
+    },
+    "domain_userid": {
+      "type": ["string", "null"]
+    },
+    "dvce_type": {
+      "type": ["string", "null"]
+    },
+    "br_viewwidth": {
+      "type": ["integer", "null"]
+    },
+    "source": {
+      "br_viewheight": ["integer", "null"]
     }
   },
   "required": [
