@@ -16,9 +16,6 @@
     },
     "platform": {
       "type": "string"
-    },
-    "user_id": {
-      "type": "string"
     }
   },
   "required": [
