@@ -24,7 +24,7 @@
       "type" : ["string", "null"]
     }
     ,"symbol_type": {
-      "type": ["boolean", "null"]
+      "type": ["string", "null"]
     }
     ,"user_id": {
       "type": ["string", "null"]
