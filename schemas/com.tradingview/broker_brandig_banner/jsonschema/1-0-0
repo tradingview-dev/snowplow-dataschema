@@ -19,6 +19,12 @@
     },
     "market": {
       "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
     }
   },
   "required": [
