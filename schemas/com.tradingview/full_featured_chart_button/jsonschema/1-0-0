@@ -15,19 +15,35 @@
       "type": "string"
     },
     "source": {
-      "type": ["string", "null"]
+      "br_viewheight": [
+        "integer",
+        "null"
+      ]
     },
     "domain_userid": {
-      "type": ["string", "null"]
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "dvce_type": {
-      "type": ["string", "null"]
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "br_viewwidth": {
-      "type": ["integer", "null"]
+      "type": [
+        "integer",
+        "null"
+      ]
     },
-    "source": {
-      "br_viewheight": ["integer", "null"]
+    "etl_tstamp": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
     }
   },
   "required": [

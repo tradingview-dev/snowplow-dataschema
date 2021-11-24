@@ -13,7 +13,14 @@
     },
     "user_id": {
       "type": "string"
-    }    
+    },
+    "etl_tstamp": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    }
   },
   "required": [
     "style_name"

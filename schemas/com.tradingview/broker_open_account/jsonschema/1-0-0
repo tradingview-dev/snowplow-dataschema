@@ -18,7 +18,10 @@
       "type": "string"
     },
     "details": {
-      "type": ["string", "null"]
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "user_id": {
       "type": "string"
@@ -28,6 +31,13 @@
     },
     "domain_sessionid": {
       "type": "string"
+    },
+    "etl_tstamp": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
     }
   },
   "required": [

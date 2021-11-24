@@ -9,52 +9,88 @@
   "type": "object",
   "properties": {
     "broker_id": {
-      "type": ["string","null"]
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "account_type": {
-      "type": ["string","null"]
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "order_ticket_mode": {
-      "type": ["string","null"]
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "side": {
-      "type": ["string","null"]
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "order_type": {
-      "type": ["string","null"]
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "symbol_type": {
-      "type": ["string","null"]
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "operation": {
-      "type": ["string","null"]
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "stop_loss": {
-      "type": ["number","null"]
-    },     
+      "type": [
+        "number",
+        "null"
+      ]
+    },
     "take_profit": {
-      "type": ["number","null"]
-    },     
+      "type": [
+        "number",
+        "null"
+      ]
+    },
     "trailing_stop": {
-      "type": ["number","null"]
-    },     
+      "type": [
+        "number",
+        "null"
+      ]
+    },
     "guaranteed_stop": {
-      "type": ["number","null"]
-    },     
-    "modified_tp_price": { 
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "modified_tp_price": {
       "type": "boolean"
     },
     "modified_tp_pips": {
       "type": "boolean"
     },
     "modified_tp_money": {
-     "type": "boolean" 
+      "type": "boolean"
     },
     "modified_tp_percent": {
       "type": "boolean"
     },
     "focused_tp_field": {
-      "type": ["string","null"]
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "modified_sl_price": {
       "type": "boolean"
@@ -69,7 +105,10 @@
       "type": "boolean"
     },
     "focused_sl_field": {
-      "type": ["string","null"]
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "show_relative_price_control": {
       "type": "boolean"
@@ -96,10 +135,16 @@
       "type": "boolean"
     },
     "focused_stop_price_field": {
-      "type": ["string","null"]
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "focused_limit_price_field": {
-      "type": ["string","null"]
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "modified_qty_units": {
       "type": "boolean"
@@ -117,19 +162,35 @@
       "type": "boolean"
     },
     "focused_qty_field": {
-      "type": ["string","null"]
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "is_default_duration": {
-      "type": ["boolean","null"]
+      "type": [
+        "boolean",
+        "null"
+      ]
     },
     "modified_duration": {
       "type": "boolean"
     },
     "duration": {
-      "type": ["string","null"]
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "used_calculator": {
       "type": "boolean"
+    },
+    "etl_tstamp": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
     }
   },
   "required": [
@@ -138,7 +199,7 @@
     "order_ticket_mode",
     "side",
     "order_type",
-	"symbol_type",
+    "symbol_type",
     "operation",
     "stop_loss",
     "take_profit",
@@ -173,7 +234,7 @@
     "is_default_duration",
     "modified_duration",
     "duration",
-    "used_calculator"  
+    "used_calculator"
   ],
   "additionalProperties": false
 }

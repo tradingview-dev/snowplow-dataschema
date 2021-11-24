@@ -28,6 +28,13 @@
     },
     "author_id": {
       "type": "string"
+    },
+    "etl_tstamp": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
     }
   },
   "required": [
@@ -36,7 +43,7 @@
     "re_stream_twitch",
     "forever_save",
     "visibility",
-    "streaming_setup"    
+    "streaming_setup"
   ],
   "additionalProperties": false
 }
