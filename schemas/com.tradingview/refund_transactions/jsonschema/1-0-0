@@ -21,20 +21,33 @@
       "type": "string"
     },
     "new_product_id": {
-      "type" : "string"
+      "type": "string"
     },
     "creator": {
-      "type" : "string"
+      "type": "string"
     },
     "transaction_id": {
-      "type" : "integer"
+      "type": "integer"
     },
     "user_id": {
-      "type" : ["string", "null"]
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "merchant": {
-      "type" : ["string", "null"]
-    }    
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "etl_tstamp": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    }
   },
   "required": [
     "product_id",

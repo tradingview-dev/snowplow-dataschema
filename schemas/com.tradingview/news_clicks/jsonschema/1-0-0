@@ -9,31 +9,62 @@
   "type": "object",
   "properties": {
     "provider": {
-      "type": ["string", "null"]
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "news_id": {
-      "type" : ["string", "null"]
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "user_id": {
-      "type" : ["integer", "null"]
+      "type": [
+        "integer",
+        "null"
+      ]
     },
     "language": {
-      "type" : ["string", "null"]
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "country": {
-      "type" : ["string", "null"]
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "category": {
-      "type" : ["string", "null"]
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "page": {
-      "type" : "string" 
+      "type": "string"
     },
     "symbol": {
-      "type" : ["string", "null"]
+      "type": [
+        "string",
+        "null"
+      ]
     },
-    "link": { 
-      "type" : ["string", "null"]
+    "link": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "etl_tstamp": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
     }
   },
   "required": [

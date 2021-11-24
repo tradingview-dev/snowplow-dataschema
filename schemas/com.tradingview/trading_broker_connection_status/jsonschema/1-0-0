@@ -12,14 +12,27 @@
       "type": "string"
     },
     "event": {
-      "type": ["string", "null"]
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "account_type": {
       "type": "string"
     },
     "user_id": {
-      "type" : ["string", "null"]
-    }	
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "etl_tstamp": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    }
   },
   "required": [
     "broker_id",

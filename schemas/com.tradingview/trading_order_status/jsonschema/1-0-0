@@ -24,13 +24,23 @@
       "type": "number"
     },
     "user_id": {
-      "type" : ["string", "null"]
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "symbol_name": {
-      "type" : "string"
+      "type": "string"
     },
     "order_id": {
-      "type" : "string"
+      "type": "string"
+    },
+    "etl_tstamp": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
     }
   },
   "required": [

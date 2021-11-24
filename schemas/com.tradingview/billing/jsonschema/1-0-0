@@ -36,19 +36,38 @@
       "type": "boolean"
     },
     "transaction_id": {
-      "type" : "integer"
+      "type": "integer"
     },
     "user_id": {
-      "type" : ["string", "null"]
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "had_pro": {
-      "type": ["boolean", "null"]
+      "type": [
+        "boolean",
+        "null"
+      ]
     },
     "geo_country": {
-      "type": ["string", "null"]
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "geo_region": {
-      "type": ["string", "null"]
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "etl_tstamp": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
     }
   },
   "required": [

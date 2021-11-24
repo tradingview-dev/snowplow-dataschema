@@ -20,12 +20,19 @@
     "is_strategy": {
       "type": "boolean"
     },
-	"pro_plan": {
-	  "type": "string"
-	},
-	"user_id": {
-	  "type": "string"
-	}
+    "pro_plan": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "string"
+    },
+    "etl_tstamp": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    }
   },
   "required": [
     "study_name",

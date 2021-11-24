@@ -14,17 +14,24 @@
     "product_id": {
       "type": "string"
     },
-	"offer_kind": {
-	  "type": "string"
-	},
-	"user_id": {
-	  "type": "string"
-	}
+    "offer_kind": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "string"
+    },
+    "etl_tstamp": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    }
   },
   "required": [
     "action",
     "product_id",
-	"offer_kind"
+    "offer_kind"
   ],
   "additionalProperties": false
 }
