@@ -1,0 +1,27 @@
+{
+    "jsonpaths": [
+        "$.schema.vendor",
+        "$.schema.name",
+        "$.schema.format",
+        "$.schema.version",
+        "$.hierarchy.rootId",
+        "$.hierarchy.rootTstamp",
+        "$.hierarchy.refRoot",
+        "$.hierarchy.refTree",
+        "$.hierarchy.refParent",
+        "$.data.page",
+        "$.data.signup_type",
+        "$.data.platform",
+        "$.data.feature_source",
+        "$.data.ref_session_id",
+        "$.data.user_id",
+        "$.first_referer_medium",
+        "$.first_referer_url_host",
+        "$.data.first_visit_date",
+        "$.data.geo_country",
+        "$.data.geo_region",
+        "$.data.domain_userid"
+    ]
+}
+
+

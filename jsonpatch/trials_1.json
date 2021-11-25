@@ -1,0 +1,24 @@
+{
+    "jsonpaths": [
+        "$.schema.vendor",
+        "$.schema.name",
+        "$.schema.format",
+        "$.schema.version",
+        "$.hierarchy.rootId",
+        "$.hierarchy.rootTstamp",
+        "$.hierarchy.refRoot",
+        "$.hierarchy.refTree",
+        "$.hierarchy.refParent",
+        "$.data.product_id",
+        "$.data.billing_cycle",
+        "$.data.action",
+        "$.data.user_id",
+        "$.data.last_view_dialog",
+        "$.data.first_visit_date",
+        "$.data.last_permission_dialogs",
+        "$.data.merchant",
+        "$.data.trial_length"
+    ]
+}
+
+

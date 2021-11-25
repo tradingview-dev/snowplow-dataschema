@@ -1,0 +1,24 @@
+{
+    "jsonpaths": [
+        "$.schema.vendor",
+        "$.schema.name",
+        "$.schema.format",
+        "$.schema.version",
+        "$.hierarchy.rootId",
+        "$.hierarchy.rootTstamp",
+        "$.hierarchy.refRoot",
+        "$.hierarchy.refTree",
+        "$.hierarchy.refParent",
+        "$.data.event_name",
+        "$.data.market_type",
+        "$.data.dataset",
+        "$.data.color_parameter",
+        "$.data.size_parameter",
+        "$.data.is_monosize",
+        "$.data.is_fullscreen",
+        "$.data.group_by",
+        "$.data.active_group",
+        "$.data.multiplier",
+        "$.data.has_filters"
+    ]
+}

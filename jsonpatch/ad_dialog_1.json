@@ -1,0 +1,31 @@
+{
+    "jsonpaths": [
+        "$.schema.vendor",
+        "$.schema.name",
+        "$.schema.format",
+        "$.schema.version",
+        "$.hierarchy.rootId",
+        "$.hierarchy.rootTstamp",
+        "$.hierarchy.refRoot",
+        "$.hierarchy.refTree",
+        "$.hierarchy.refParent",
+        "$.data.ad_unit",
+        "$.data.placement",
+        "$.data.action",
+        "$.data.filled",
+        "$.data.user_plan",
+        "$.data.symbol_type",
+        "$.data.user_id",
+        "$.data.domain_userid",
+        "$.data.domain_sessionid",
+        "$.data.app_id",
+        "$.data.platform",
+        "$.data.dvce_type",
+        "$.data.dvce_ismobile",
+        "$.data.os_name",
+        "$.data.os_family",
+        "$.data.geo_country",
+        "$.data.page_urlpath",
+        "$.data.page_urlhost"
+    ]
+}

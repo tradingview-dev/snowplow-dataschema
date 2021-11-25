@@ -1,0 +1,23 @@
+{
+    "jsonpaths": [
+        "$.schema.vendor",
+        "$.schema.name",
+        "$.schema.format",
+        "$.schema.version",
+        "$.hierarchy.rootId",
+        "$.hierarchy.rootTstamp",
+        "$.hierarchy.refRoot",
+        "$.hierarchy.refTree",
+        "$.hierarchy.refParent",
+        "$.data.user_id",
+        "$.data.alert_time",
+        "$.data.alert_symbol",
+        "$.data.alert_symbol_type",
+        "$.data.event_type",
+        "$.data.alert_id",
+        "$.data.total_alerts",
+        "$.data.active_alerts",
+        "$.data.active_alerts_limit",
+        "$.data.pro_plan"
+    ]
+}

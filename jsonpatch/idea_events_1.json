@@ -1,0 +1,31 @@
+{
+    "jsonpaths": [
+        "$.schema.vendor",
+        "$.schema.name",
+        "$.schema.format",
+        "$.schema.version",
+        "$.hierarchy.rootId",
+        "$.hierarchy.rootTstamp",
+        "$.hierarchy.refRoot",
+        "$.hierarchy.refTree",
+        "$.hierarchy.refParent",
+        "$.data.action",
+        "$.data.user_plan",
+        "$.data.idea_id",
+        "$.data.idea_url",
+        "$.data.idea_lang",
+        "$.data.idea_views",
+        "$.data.idea_likes",
+        "$.data.idea_comments",
+        "$.data.picked_time",
+        "$.data.author_id",
+        "$.data.author_plan",
+        "$.data.author_reputation",
+        "$.data.author_count_ideas",
+        "$.data.author_scripts",
+        "$.data.author_likes",
+        "$.data.author_followers",
+        "$.data.idea_public",
+        "$.data.idea_lock"
+    ]
+}

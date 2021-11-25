@@ -1,0 +1,19 @@
+{
+    "jsonpaths": [
+        "$.schema.vendor",
+        "$.schema.name",
+        "$.schema.format",
+        "$.schema.version",
+        "$.hierarchy.rootId",
+        "$.hierarchy.rootTstamp",
+        "$.hierarchy.refRoot",
+        "$.hierarchy.refTree",
+        "$.hierarchy.refParent",
+        "$.data.broker_id",
+        "$.data.user_hash",
+        "$.data.account_id_hash",
+        "$.data.equity",
+        "$.data.currency"
+    ]
+}
+

@@ -1,0 +1,24 @@
+{
+    "jsonpaths": [
+        "$.schema.vendor",
+        "$.schema.name",
+        "$.schema.format",
+        "$.schema.version",
+        "$.hierarchy.rootId",
+        "$.hierarchy.rootTstamp",
+        "$.hierarchy.refRoot",
+        "$.hierarchy.refTree",
+        "$.hierarchy.refParent",
+        "$.data.product_id",
+        "$.data.amount",
+        "$.data.refund_type",
+        "$.data.reason",
+        "$.data.new_product_id",
+        "$.data.creator",
+        "$.data.transaction_id",
+        "$.data.user_id",
+        "$.data.merchant"
+    ]
+}
+
+

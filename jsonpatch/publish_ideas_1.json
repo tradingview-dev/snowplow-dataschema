@@ -1,0 +1,26 @@
+{
+    "jsonpaths": [
+        "$.schema.vendor",
+        "$.schema.name",
+        "$.schema.format",
+        "$.schema.version",
+        "$.hierarchy.rootId",
+        "$.hierarchy.rootTstamp",
+        "$.hierarchy.refRoot",
+        "$.hierarchy.refTree",
+        "$.hierarchy.refParent",
+        "$.data.idea_id",
+        "$.data.is_chart_video_idea",
+        "$.data.symbol",
+        "$.data.symbol_type",
+        "$.data.lang",
+        "$.data.is_education",
+        "$.data.is_public",
+        "$.data.direction",
+        "$.data.resolution",
+        "$.data.tags",
+        "$.data.platform",
+        "$.data.user_id",
+        "$.data.image_url"
+    ]
+}

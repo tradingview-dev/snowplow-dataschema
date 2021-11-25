@@ -1,0 +1,21 @@
+{
+    "jsonpaths": [
+        "$.schema.vendor",
+        "$.schema.name",
+        "$.schema.format",
+        "$.schema.version",
+        "$.hierarchy.rootId",
+        "$.hierarchy.rootTstamp",
+        "$.hierarchy.refRoot",
+        "$.hierarchy.refTree",
+        "$.hierarchy.refParent",
+        "$.data.locale",
+        "$.data.re_stream_youtube",
+        "$.data.re_stream_twitch",
+        "$.data.forever_save",
+        "$.data.visibility",
+        "$.data.streaming_setup",
+        "$.data.author_id"
+    ]
+}
+
