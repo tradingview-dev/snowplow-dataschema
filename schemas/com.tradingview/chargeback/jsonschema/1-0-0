@@ -35,6 +35,9 @@
         "null"
       ],
       "format": "date-time"
+    },
+    "amount_usd": {
+      "type": "number"
     }
   },
   "required": [
