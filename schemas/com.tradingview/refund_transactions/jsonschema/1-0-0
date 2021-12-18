@@ -50,6 +50,9 @@
     },
     "amount_usd": {
       "type": "number"
+    },
+    "currency": {
+      "type": "string"
     }
   },
   "required": [
