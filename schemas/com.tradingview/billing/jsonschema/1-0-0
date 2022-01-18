@@ -71,6 +71,12 @@
     },
     "amount_usd": {
       "type": "number"
+    },
+    "country_of_issuance": {
+      "type": [
+        "string",
+        "null"
+      ]
     }
   },
   "required": [

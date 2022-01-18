@@ -53,6 +53,12 @@
     },
     "currency": {
       "type": "string"
+    },
+    "country_of_issuance": {
+      "type": [
+        "string",
+        "null"
+      ]
     }
   },
   "required": [

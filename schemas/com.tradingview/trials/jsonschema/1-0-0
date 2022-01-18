@@ -66,6 +66,12 @@
         "null"
       ],
       "format": "date-time"
+    },
+    "country_of_issuance": {
+      "type": [
+        "string",
+        "null"
+      ]
     }
   },
   "required": [
