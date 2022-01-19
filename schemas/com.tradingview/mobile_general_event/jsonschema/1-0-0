@@ -1,0 +1,43 @@
+{
+  "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+  "self": {
+    "vendor": "com.tradingviewanalytics",
+    "name": "mobile_general_event",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "name_event": {
+      "type": "string"
+    },
+    "param_one": {
+      "type": ["string", "null"]
+    },
+    "param_two": {
+      "type": ["string", "null"]
+    },
+    "param_three": {
+      "type": ["string", "null"]
+    },
+    "param_four": {
+      "type": ["string", "null"]
+    },
+    "param_five": {
+      "type": ["string", "null"]
+    },
+    "etl_tstamp": {
+      "type": ["string", "null"],
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "name_event",
+    "param_one",
+    "param_two",
+    "param_three",
+    "param_four",
+    "param_five"
+  ],
+  "additionalProperties": false
+}
