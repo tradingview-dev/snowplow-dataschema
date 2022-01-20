@@ -32,12 +32,7 @@
     }
   },
   "required": [
-    "name_event",
-    "param_one",
-    "param_two",
-    "param_three",
-    "param_four",
-    "param_five"
+    "name_event"
   ],
   "additionalProperties": false
 }
