@@ -68,6 +68,9 @@
         "null"
       ],
       "format": "date-time"
+    },
+    "user_id": {
+      "type": "string"
     }
   },
   "required": [
