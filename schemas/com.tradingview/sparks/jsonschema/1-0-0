@@ -20,6 +20,36 @@
         "null"
       ],
       "format": "date-time"
+    },
+    "user_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "domain_userid": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "geo_country": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "app_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "dvce_ismobile": {
+      "type": [
+        "string",
+        "null"
+      ]
     }
   },
   "required": [
