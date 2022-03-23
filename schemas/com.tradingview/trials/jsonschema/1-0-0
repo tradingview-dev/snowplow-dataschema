@@ -84,6 +84,12 @@
         "string",
         "null"
       ]
+    },
+    "payment_method": {
+      "type": [
+        "string",
+        "null"
+      ]
     }
   },
   "required": [
