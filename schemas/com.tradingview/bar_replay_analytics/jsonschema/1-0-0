@@ -1,0 +1,33 @@
+{
+  "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+  "self": {
+    "vendor": "com.tradingviewanalytics",
+    "name": "bar_replay_analytics",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "bar_replay_action": {
+      "type": "string"
+    },
+    "bar_replay_action_data": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "etl_tstamp": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "action",
+    "value"
+  ],
+  "additionalProperties": false
+}
