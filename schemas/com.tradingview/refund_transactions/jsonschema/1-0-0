@@ -59,6 +59,12 @@
         "string",
         "null"
       ]
+    },
+    "tax": {
+      "type": [
+        "number",
+        "null"
+      ]
     }
   },
   "required": [
