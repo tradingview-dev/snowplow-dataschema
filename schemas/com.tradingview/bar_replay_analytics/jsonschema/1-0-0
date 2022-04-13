@@ -26,8 +26,8 @@
     }
   },
   "required": [
-    "action",
-    "value"
+    "bar_replay_action",
+    "bar_replay_action_data"
   ],
   "additionalProperties": false
 }
