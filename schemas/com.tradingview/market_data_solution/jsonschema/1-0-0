@@ -8,9 +8,6 @@
   },
   "type": "object",
   "properties": {
-    "place": {
-      "type": "string"
-    },
     "symbol": {
       "type": [
         "string",
@@ -26,7 +23,6 @@
     }
   },
   "required": [
-    "place",
     "symbol"
   ],
   "additionalProperties": false
