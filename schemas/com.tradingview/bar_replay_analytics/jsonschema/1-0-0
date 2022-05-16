@@ -29,6 +29,24 @@
         "string",
         "null"
       ]
+    },
+    "app_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "domain_sessionid": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "dvce_type": {
+      "type": [
+        "string",
+        "null"
+      ]
     }
   },
   "required": [
