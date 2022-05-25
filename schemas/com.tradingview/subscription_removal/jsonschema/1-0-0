@@ -23,6 +23,9 @@
         "null"
       ],
       "format": "date-time"
+    },
+    "by_user": {
+      "type": "boolean"
     }
   },
   "required": [
