@@ -23,6 +23,18 @@
         "null"
       ],
       "format": "date-time"
+    },
+    "geo_country": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "user_id": {
+      "type": [
+        "string",
+        "null"
+      ]
     }
   },
   "required": [
