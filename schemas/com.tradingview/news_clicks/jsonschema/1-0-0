@@ -65,6 +65,12 @@
         "null"
       ],
       "format": "date-time"
+    },
+    "placement": {
+      "type": [
+        "string",
+        "null"
+      ]
     }
   },
   "required": [
