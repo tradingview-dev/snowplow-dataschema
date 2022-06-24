@@ -32,6 +32,13 @@
         "null"
       ],
       "format": "date-time"
+    },
+    "source_app": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
     }
   },
   "required": [
