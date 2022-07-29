@@ -58,6 +58,11 @@
         "string", "null"
       ],
       "format": "date-time"
+    },
+    "user_plan": {
+      "type": [
+        "string", "null"
+      ]
     }
   },
   "required": [
@@ -68,7 +73,8 @@
     "name",
     "lable",
     "value",
-    "domain"
+    "domain",
+    "user_plan"
   ],
   "additionalProperties": false
 }
