@@ -20,6 +20,24 @@
         "null"
       ],
       "format": "date-time"
+    },
+    "domain_userid": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "user_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "user_plan": {
+      "type": [
+        "string",
+        "null"
+      ]
     }
   },
   "required": [
