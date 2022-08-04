@@ -75,6 +75,12 @@
         "null"
       ],
       "format": "date-time"
+    },
+    "evercookie": {
+      "type": [
+        "string",
+        "null"
+      ]
     }
   },
   "required": [
