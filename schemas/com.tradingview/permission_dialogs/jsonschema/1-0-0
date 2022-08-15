@@ -29,6 +29,12 @@
         "null"
       ],
       "format": "date-time"
+    },
+    "user_plan": {
+      "type": [
+        "string",
+        "null"
+      ]
     }
   },
   "required": [
