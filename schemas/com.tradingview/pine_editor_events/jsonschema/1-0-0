@@ -12,7 +12,10 @@
       "type": "string"
     },
     "event_param": {
-      "type": "string"
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "user_id": {
       "type": "string"
