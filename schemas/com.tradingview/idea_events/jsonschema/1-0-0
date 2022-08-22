@@ -12,7 +12,10 @@
       "type": "string"
     },
     "user_plan": {
-      "type": "string"
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "idea_id": {
       "type": "string"
@@ -75,7 +78,6 @@
   },
   "required": [
     "action",
-    "user_plan",
     "idea_id",
     "idea_url",
     "idea_lang",
