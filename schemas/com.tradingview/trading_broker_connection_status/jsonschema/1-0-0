@@ -32,6 +32,60 @@
         "null"
       ],
       "format": "date-time"
+    },
+    "app_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "br_name": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "br_type": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "br_version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "br_viewheight": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "br_viewwidth": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "dvce_type": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "geo_country": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "useragent": {
+      "type": [
+        "string",
+        "null"
+      ]
     }
   },
   "required": [
