@@ -21,6 +21,36 @@
         "null"
       ],
       "format": "date-time"
+    },
+    "refr_source": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "refr_term": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "domain_userid": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "user_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "app_id": {
+      "type": [
+        "string",
+        "null"
+      ]
     }
   },
   "required": [
