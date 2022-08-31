@@ -1,0 +1,129 @@
+{
+  "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+  "self": {
+    "vendor": "com.tradingviewanalytics",
+    "name": "featured_placement",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "featured_broker": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "results_list": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "user_plan": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "user_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "domain_userid": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "domain_sessionid": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "app_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "platform": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "dvce_type": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "dvce_ismobile": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "os_name": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "os_family": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "geo_country": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "page_urlpath": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "page_urlhost": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "etl_tstamp": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "action",
+    "source",
+    "featured_broker",
+    "results_list",
+    "user_plan"
+  ],
+  "additionalProperties": false
+}
