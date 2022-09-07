@@ -86,7 +86,25 @@
         "null"
       ],
       "format": "date-time"
-    }
+    },
+    "mkt_medium": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "mkt_source": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "mkt_campaign": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
   },
   "required": [
     "click_type",
