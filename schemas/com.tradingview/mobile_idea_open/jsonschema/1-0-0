@@ -51,6 +51,24 @@
         "string",
         "null"
       ]
+    },
+    "idea_uuid": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "author_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "user_plan": {
+      "type": [
+        "string",
+        "null"
+      ]
     }
   },
   "required": [
