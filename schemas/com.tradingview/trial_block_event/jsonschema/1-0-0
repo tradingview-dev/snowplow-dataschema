@@ -41,7 +41,10 @@
     }
   },
   "required": [
-    "symbol"
+    "product_id",
+    "billing_cycle",
+    "bank",
+    "reason"
   ],
   "additionalProperties": false
 }
