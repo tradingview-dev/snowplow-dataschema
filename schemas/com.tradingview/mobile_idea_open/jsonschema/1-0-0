@@ -58,7 +58,7 @@
         "null"
       ]
     },
-    "author_id": {
+    "author_username": {
       "type": [
         "string",
         "null"
