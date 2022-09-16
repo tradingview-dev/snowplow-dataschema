@@ -28,7 +28,7 @@
     },
     "link": {
       "type": [
-        "object",
+        "string",
         "null"
       ]
     },
