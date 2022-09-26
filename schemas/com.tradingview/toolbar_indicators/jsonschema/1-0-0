@@ -1,0 +1,50 @@
+{
+  "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+  "self": {
+    "vendor": "com.tradingviewanalytics",
+    "name": "careers_link_click",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "tab": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "bubble": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "script_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "feature_toggle": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "etl_tstamp": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "tab",
+    "bubble",
+    "script_id",
+    "feature_toggle"
+  ],
+  "additionalProperties": false
+}
