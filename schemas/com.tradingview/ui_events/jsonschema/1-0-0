@@ -33,7 +33,7 @@
         "string", "null"
       ]
     },
-    "lable": {
+    "label": {
       "type": [
         "string", "null"
       ]
@@ -71,7 +71,7 @@
     "type_event",
     "url",
     "name",
-    "lable",
+    "label",
     "value",
     "domain",
     "user_plan"
