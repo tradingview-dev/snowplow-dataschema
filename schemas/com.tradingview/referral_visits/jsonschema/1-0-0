@@ -26,6 +26,12 @@
         "string",
         "null"
       ]
+    },
+    "user_id": {
+      "type": [
+        "string",
+        "null"
+      ]
     }
   },
   "required": [

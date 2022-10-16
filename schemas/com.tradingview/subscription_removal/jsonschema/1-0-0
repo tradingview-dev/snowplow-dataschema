@@ -26,6 +26,12 @@
     },
     "by_user": {
       "type": "boolean"
+    },
+    "user_id": {
+      "type": [
+        "string",
+        "null"
+      ]
     }
   },
   "required": [

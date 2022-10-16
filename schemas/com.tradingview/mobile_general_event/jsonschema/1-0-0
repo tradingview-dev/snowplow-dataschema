@@ -29,6 +29,12 @@
     "etl_tstamp": {
       "type": ["string", "null"],
       "format": "date-time"
+    },
+    "user_id": {
+      "type": [
+        "string",
+        "null"
+      ]
     }
   },
   "required": [
