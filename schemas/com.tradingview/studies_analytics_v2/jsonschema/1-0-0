@@ -32,6 +32,12 @@
         "null"
       ],
       "format": "date-time"
+    },
+    "domain_userid": {
+      "type": [
+        "string",
+        "null"
+      ]
     }
   },
   "required": [
