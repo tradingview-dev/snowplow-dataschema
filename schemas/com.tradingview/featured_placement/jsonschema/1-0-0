@@ -20,13 +20,13 @@
         "null"
       ]
     },
-    "featured_broker": {
+    "broker": {
       "type": [
         "string",
         "null"
       ]
     },
-    "results_list": {
+    "broker_list": {
       "type": [
         "object",
         "null"
