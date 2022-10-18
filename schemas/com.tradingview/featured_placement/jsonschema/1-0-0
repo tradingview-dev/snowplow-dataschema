@@ -121,8 +121,8 @@
   "required": [
     "action",
     "source",
-    "featured_broker",
-    "results_list",
+    "broker",
+    "broker_list",
     "user_plan"
   ],
   "additionalProperties": false
