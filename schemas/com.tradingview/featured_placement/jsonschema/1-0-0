@@ -28,7 +28,7 @@
     },
     "broker_list": {
       "type": [
-        "string",
+        "array",
         "null"
       ]
     },
