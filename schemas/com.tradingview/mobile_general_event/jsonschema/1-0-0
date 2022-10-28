@@ -35,6 +35,18 @@
         "string",
         "null"
       ]
+    },
+    "domain_userid": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "app_id": {
+      "type": [
+        "string",
+        "null"
+      ]
     }
   },
   "required": [
