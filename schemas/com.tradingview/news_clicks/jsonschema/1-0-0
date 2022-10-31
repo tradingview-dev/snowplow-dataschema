@@ -93,8 +93,7 @@
     "country",
     "category",
     "page",
-    "symbol",
-    "link"
+    "symbol"
   ],
   "additionalProperties": false
 }
