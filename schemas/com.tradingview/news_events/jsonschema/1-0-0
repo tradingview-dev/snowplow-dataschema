@@ -86,12 +86,10 @@
     "news_event",
     "page",
     "placement",
-    "country",
     "language",
     "news_id",
     "provider",
     "category",
-    "symbol",
     "link"
   ],
   "additionalProperties": false
