@@ -89,7 +89,6 @@
     "language",
     "news_id",
     "provider",
-    "category",
     "link"
   ],
   "additionalProperties": false
