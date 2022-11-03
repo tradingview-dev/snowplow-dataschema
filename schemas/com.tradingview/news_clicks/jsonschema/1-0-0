@@ -83,6 +83,18 @@
         "string",
         "null"
       ]
+    },
+    "area": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "section": {
+      "type": [
+        "string",
+        "null"
+      ]
     }
   },
   "required": [
