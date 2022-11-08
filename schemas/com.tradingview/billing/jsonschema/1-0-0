@@ -83,6 +83,12 @@
         "number",
         "null"
       ]
+    },
+    "tax_usd": {
+      "type": [
+        "number",
+        "null"
+      ]
     }
   },
   "required": [
