@@ -35,6 +35,12 @@
     },
     "by_user": {
       "type": "boolean"
+    },
+    "geo_country": {
+      "type": [
+        "string",
+        "null"
+      ]
     }
   },
   "required": [
