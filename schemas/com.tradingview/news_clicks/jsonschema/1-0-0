@@ -100,12 +100,8 @@
   "required": [
     "provider",
     "news_id",
-    "user_id",
     "language",
-    "country",
-    "category",
-    "page",
-    "symbol"
+    "page"
   ],
   "additionalProperties": false
 }
