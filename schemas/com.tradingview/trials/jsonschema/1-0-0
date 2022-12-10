@@ -90,6 +90,12 @@
         "string",
         "null"
       ]
+    },
+    "is_two_weeks_discounts": {
+      "type": [
+        "boolean",
+        "null"
+      ]
     }
   },
   "required": [
