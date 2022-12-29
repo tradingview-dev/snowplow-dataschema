@@ -32,6 +32,12 @@
         "string",
         "null"
       ]
+    },
+    "extra": {
+      "type": [
+        "string",
+        "null"
+      ]
     }
   },
   "required": [
