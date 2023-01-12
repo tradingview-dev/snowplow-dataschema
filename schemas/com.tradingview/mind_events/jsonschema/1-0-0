@@ -32,12 +32,19 @@
         "null"
       ],
       "format": "date-time"
+    },
+    "mind_id": {
+      "type": [
+        "string",
+        "null"
+      ]
     }
   },
   "required": [
     "placement",
     "group_events",
-    "action"
+    "action",
+    "mind_id"
   ],
   "additionalProperties": false
 }
