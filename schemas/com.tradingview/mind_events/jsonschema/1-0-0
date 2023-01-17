@@ -43,8 +43,7 @@
   "required": [
     "placement",
     "group_events",
-    "action",
-    "mind_id"
+    "action"
   ],
   "additionalProperties": false
 }
