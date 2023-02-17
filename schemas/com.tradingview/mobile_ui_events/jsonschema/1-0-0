@@ -2,31 +2,55 @@
   "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
   "self": {
     "vendor": "com.tradingviewanalytics",
-    "name": "watchlist_mobile",
+    "name": "mobile_ui_events",
     "format": "jsonschema",
     "version": "1-0-0"
   },
   "type": "object",
   "properties": {
-    "action": {
+    "event_name": {
       "type": [
         "string",
         "null"
       ]
     },
-    "list_id": {
+    "screen_view": {
       "type": [
         "string",
         "null"
       ]
     },
-    "symbol": {
+    "tabBar": {
       "type": [
         "string",
         "null"
       ]
     },
-    "source": {
+    "open_source": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "tabs": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "value_one": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "value_two": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "value_three": {
       "type": [
         "string",
         "null"
@@ -44,13 +68,19 @@
         "null"
       ]
     },
+    "app_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
     "user_plan": {
       "type": [
         "string",
         "null"
       ]
     },
-    "app_id": {
+    "locale": {
       "type": [
         "string",
         "null"
@@ -65,7 +95,8 @@
     }
   },
   "required": [
-    "action"
+    "event_name",
+    "screen_view"
   ],
   "additionalProperties": false
 }
