@@ -38,6 +38,12 @@
         "null"
       ],
       "format": "date-time"
+    },
+    "preset_id": {
+      "type": [
+        "number",
+        "null"
+      ]
     }
   },
   "required": [
