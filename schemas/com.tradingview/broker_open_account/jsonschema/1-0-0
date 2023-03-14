@@ -38,6 +38,18 @@
         "null"
       ],
       "format": "date-time"
+    },
+    "platform": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "app_id": {
+      "type": [
+        "string",
+        "null"
+      ]
     }
   },
   "required": [
