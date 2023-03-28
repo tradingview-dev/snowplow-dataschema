@@ -92,6 +92,12 @@
         "string",
         "null"
       ]
+    },
+    "app_id": {
+      "type": [
+        "string",
+         "null"
+        ]
     }
   },
   "required": [
