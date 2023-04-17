@@ -96,6 +96,12 @@
         "boolean",
         "null"
       ]
+    },
+    "is_reduced_discounts": {
+      "type": [
+        "boolean",
+        "null"
+      ]
     }
   },
   "required": [

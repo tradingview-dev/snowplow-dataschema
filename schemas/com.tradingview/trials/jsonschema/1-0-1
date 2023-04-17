@@ -102,6 +102,12 @@
         "boolean",
         "null"
       ]
+    },
+    "is_increased_discounts": {
+      "type": [
+        "boolean",
+        "null"
+      ]
     }
   },
   "required": [
