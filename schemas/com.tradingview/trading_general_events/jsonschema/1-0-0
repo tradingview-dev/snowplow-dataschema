@@ -1,0 +1,34 @@
+{
+    "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+    "self": {
+        "vendor": "com.tradingviewanalytics",
+        "name": "trading_general_events",
+        "format": "jsonschema",
+        "version": "1-0-0"
+    },
+    "type": "object",
+    "properties": {
+        "event_category": {
+            "type": "string"
+        },
+        "event_label": {
+            "type": "string"
+        },
+        "event_action": {
+            "type": "string"
+        },
+        "etl_tstamp": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "format": "date-time"
+        }
+    },
+    "required": [
+        "event_category",
+        "event_label",
+        "event_action"
+    ],
+    "additionalProperties": false
+}
