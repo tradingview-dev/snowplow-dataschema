@@ -1,7 +1,7 @@
 {
     "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
     "self": {
-        "vendor": "gopro_visits",
+        "vendor": "com.tradingviewanalytics",
         "name": "help_desk",
         "format": "jsonschema",
         "version": "1-0-0"
@@ -50,6 +50,30 @@
                 "null"
             ]
         },
+        "domain_userid": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },        
+        "br_lang": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "search_click_index": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "search_click_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
         "etl_tstamp": {
             "type": [
                 "string",
@@ -59,10 +83,7 @@
         }
     },
     "required": [
-        "name_event",
-        "query_text",
-        "search_result",
-        "user_plan"
+        "name_event"
     ],
     "additionalProperties": false
 }
