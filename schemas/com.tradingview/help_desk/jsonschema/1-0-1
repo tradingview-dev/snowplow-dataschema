@@ -1,0 +1,89 @@
+{
+    "$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+    "self": {
+        "vendor": "com.tradingviewanalytics",
+        "name": "help_desk",
+        "format": "jsonschema",
+        "version": "1-0-1"
+    },
+    "type": "object",
+    "properties": {
+        "name_event": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "query_text": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "search_result": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "user_plan": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "user_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "domain_userid": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "app_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "domain_userid": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },        
+        "br_lang": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "search_click_index": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "search_click_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "etl_tstamp": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "format": "date-time"
+        }
+    },
+    "required": [
+        "name_event"
+    ],
+    "additionalProperties": false
+}
