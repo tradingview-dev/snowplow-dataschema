@@ -4,7 +4,7 @@
         "vendor": "com.tradingviewanalytics",
         "name": "help_desk",
         "format": "jsonschema",
-        "version": "1-0-0"
+        "version": "1-0-1"
     },
     "type": "object",
     "properties": {
@@ -22,7 +22,7 @@
         },
         "search_result": {
             "type": [
-                "string",
+                "array",
                 "null"
             ]
         },
@@ -64,7 +64,7 @@
         },
         "search_click_index": {
             "type": [
-                "string",
+                "integer",
                 "null"
             ]
         },
